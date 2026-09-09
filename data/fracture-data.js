@@ -277,7 +277,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Acoustic Isolation & Technological Distance",
       "core_pillar": "Epistemic Isolation",
       "style": "A slow, melancholic Country Blues track with a pervasive sense of unease. Features intimate, weary male vocals carrying the story. Instrumentation includes sparse, resonant acoustic guitar fingerpicking, subtle, distant harmonica wails, and a deep, somber bass line. Drums are minimal, just a gentle, echoing beat. Evokes feelings of alienation, introspection, and quiet sorrow.",
-      "lyrics": "(Verse 1) Silence hangs heavy, where the old voices used to meet Silence hangs heavy, where the old voices used to meet A hollow wind through empty streets, nowhere solid for my feet Just a distant hum of static, where the gentle currents flee. (Chorus) Got these echoes in the canyon, hear 'em whisperin' low and deep Promises the past ain't keepin', secrets that the future keeps Feel a tearing in the fabric, a silent sorrow, hard to name Yeah, these echoes in the canyon, ain't nobody else to blame. (Verse 2) See the faces, passin' by, eyes that never seem to meet See the faces, passin' by, eyes that never seem to meet Building walls so cold and high, on every winding, lonely street Each one walkin' their own line, can't find rhythm in the beat. (Chorus) Got these echoes in the canyon, hear 'em whisperin' low and deep Promises the past ain't keepin', secrets that the future keeps Feel a tearing in the fabric, a silent sorrow, hard to name Yeah, these echoes in the canyon, ain't nobody else to blame. (Verse 3) Truth gets twisted, thin and frail, broken by a thousand lies Truth gets twisted, thin and frail, broken by a thousand lies Leavin' splintered, empty trails, beneath these gray and worried skies Can't recall the common ground, just the lonely, fading sighs. (Bridge) Used to think the river flowed, all in one direction, strong and true Now it's splintered, hard and cold, separate currents, stark and new Try to call across the divide, but my voice just loses sound Just these echoes in the canyon, all across this broken ground. (Chorus) Got these echoes in the canyon, hear 'em whisperin' low and deep Promises the past ain't keepin', secrets that the future keeps Feel a tearing in the fabric, a silent sorrow, hard to name Yeah, these echoes in the canyon, ain't nobody else to blame. (Outro) Ain't nobody else to blame... yeah... Just these echoes... in the empty air.",
+      "lyrics": "[Verse 1]\nSilence hangs heavy, where the old voices used to meet\nSilence hangs heavy, where the old voices used to meet\nA hollow wind through empty streets, nowhere solid for my feet\nJust a distant hum of static, where the gentle currents flee.\n\n[Chorus]\nGot these echoes in the canyon, hear 'em whisperin' low and deep\nPromises the past ain't keepin', secrets that the future keeps\nFeel a tearing in the fabric, a silent sorrow, hard to name\nYeah, these echoes in the canyon, ain't nobody else to blame.\n\n[Verse 2]\nSee the faces, passin' by, eyes that never seem to meet\nSee the faces, passin' by, eyes that never seem to meet\nBuilding walls so cold and high, on every winding, lonely street\nEach one walkin' their own line, can't find rhythm in the beat.\n\n[Chorus]\nGot these echoes in the canyon, hear 'em whisperin' low and deep\nPromises the past ain't keepin', secrets that the future keeps\nFeel a tearing in the fabric, a silent sorrow, hard to name\nYeah, these echoes in the canyon, ain't nobody else to blame.\n\n[Verse 3]\nTruth gets twisted, thin and frail, broken by a thousand lies\nTruth gets twisted, thin and frail, broken by a thousand lies\nLeavin' splintered, empty trails, beneath these gray and worried skies\nCan't recall the common ground, just the lonely, fading sighs.\n\n[Bridge]\nUsed to think the river flowed, all in one direction, strong and true\nNow it's splintered, hard and cold, separate currents, stark and new\nTry to call across the divide, but my voice just loses sound\nJust these echoes in the canyon, all across this broken ground.\n\n[Chorus]\nGot these echoes in the canyon, hear 'em whisperin' low and deep\nPromises the past ain't keepin', secrets that the future keeps\nFeel a tearing in the fabric, a silent sorrow, hard to name\nYeah, these echoes in the canyon, ain't nobody else to blame.\n\n[Outro]\nAin't nobody else to blame... yeah...\nJust these echoes... in the empty air.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Silence hangs heavy, where the old voices used to meet",
+            "Silence hangs heavy, where the old voices used to meet",
+            "A hollow wind through empty streets, nowhere solid for my feet",
+            "Just a distant hum of static, where the gentle currents flee."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Got these echoes in the canyon, hear 'em whisperin' low and deep",
+            "Promises the past ain't keepin', secrets that the future keeps",
+            "Feel a tearing in the fabric, a silent sorrow, hard to name",
+            "Yeah, these echoes in the canyon, ain't nobody else to blame."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "See the faces, passin' by, eyes that never seem to meet",
+            "See the faces, passin' by, eyes that never seem to meet",
+            "Building walls so cold and high, on every winding, lonely street",
+            "Each one walkin' their own line, can't find rhythm in the beat."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Got these echoes in the canyon, hear 'em whisperin' low and deep",
+            "Promises the past ain't keepin', secrets that the future keeps",
+            "Feel a tearing in the fabric, a silent sorrow, hard to name",
+            "Yeah, these echoes in the canyon, ain't nobody else to blame."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Truth gets twisted, thin and frail, broken by a thousand lies",
+            "Truth gets twisted, thin and frail, broken by a thousand lies",
+            "Leavin' splintered, empty trails, beneath these gray and worried skies",
+            "Can't recall the common ground, just the lonely, fading sighs."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "Used to think the river flowed, all in one direction, strong and true",
+            "Now it's splintered, hard and cold, separate currents, stark and new",
+            "Try to call across the divide, but my voice just loses sound",
+            "Just these echoes in the canyon, all across this broken ground."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Got these echoes in the canyon, hear 'em whisperin' low and deep",
+            "Promises the past ain't keepin', secrets that the future keeps",
+            "Feel a tearing in the fabric, a silent sorrow, hard to name",
+            "Yeah, these echoes in the canyon, ain't nobody else to blame."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Ain't nobody else to blame... yeah...",
+            "Just these echoes... in the empty air."
+          ]
+        }
+      ],
       "video_id": "wDyFkjp_H3s",
       "video_url": "https://www.youtube.com/watch?v=wDyFkjp_H3s",
       "image_landscape": "assets/art/Echos in the Canyon.jpg",
@@ -293,7 +365,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Generational Fault Lines & Ephemeral Cloud Life",
       "core_pillar": "Generational Fault Lines",
       "style": "A driving, melancholic Country Folk song with a slightly restless rhythm. Features a strong, expressive male vocal that conveys both yearning and frustration. Instrumentation includes a prominent, slightly jangly acoustic guitar riff, a steady, simple bass line, and drums with a persistent, almost anxious beat. Subtle, high-pitched electric guitar accents or synthesized textures could hint at the 'digital' theme. The mood is one of quiet desperation for connection amidst technological and value divides.",
-      "lyrics": "(Verse 1) Got my stories, etched in lines, on paperbacks and weathered hands Walked through fields of analog time, understood the fertile lands Now they speak in rapid clicks, in languages I barely know Try to bridge the gaps and tricks, watchin' new currents fiercely flow. (Chorus) Digital dust and analog bones, a chasm wide, a silent sound Lost between the cellular tones, on unfamiliar, shifting ground My words just echoes in the air, theirs a flicker on the screen Yeah, this generational divide, the starkest truth I've ever seen. (Verse 2) Show 'em somethin' built to last, with patience, wisdom, hard-won skill They look for apps that move too fast, can't stand the climb upon the hill They want the quick, the immediate gain, no time for lessons etched so deep And understanding turns to pain, while ancient truths they just won't keep. (Chorus) Digital dust and analog bones, a chasm wide, a silent sound Lost between the cellular tones, on unfamiliar, shifting ground My words just echoes in the air, theirs a flicker on the screen Yeah, this generational divide, the starkest truth I've ever seen. (Verse 3) We connect through wires and clouds, but our hearts feel miles apart Lost within the chattering crowds, where algorithms play their part Try to share a lived-in truth, from a past they can't comprehend Just a different kind of youth, comin' to a lonely end. (Bridge) I reach across, they swipe and scroll, a different pace, a different light Prayin' for a common soul, to bridge this endless day and night For the wisdom of the turning years, and the promise in the youthful gleam Both are needed, calm the fears, in this fractured, fading dream. (Chorus) Digital dust and analog bones, a chasm wide, a silent sound Lost between the cellular tones, on unfamiliar, shifting ground My words just echoes in the air, theirs a flicker on the screen Yeah, this generational divide, the starkest truth I've ever seen. (Outro) Starkest truth I've ever seen... yeah... Digital dust... and analog bones.",
+      "lyrics": "[Verse 1]\nGot my stories, etched in lines, on paperbacks and weathered hands\nWalked through fields of analog time, understood the fertile lands\nNow they speak in rapid clicks, in languages I barely know\nTry to bridge the gaps and tricks, watchin' new currents fiercely flow.\n\n[Chorus]\nDigital dust and analog bones, a chasm wide, a silent sound\nLost between the cellular tones, on unfamiliar, shifting ground\nMy words just echoes in the air, theirs a flicker on the screen\nYeah, this generational divide, the starkest truth I've ever seen.\n\n[Verse 2]\nShow 'em somethin' built to last, with patience, wisdom, hard-won skill\nThey look for apps that move too fast, can't stand the climb upon the hill\nThey want the quick, the immediate gain, no time for lessons etched so deep\nAnd understanding turns to pain, while ancient truths they just won't keep.\n\n[Chorus]\nDigital dust and analog bones, a chasm wide, a silent sound\nLost between the cellular tones, on unfamiliar, shifting ground\nMy words just echoes in the air, theirs a flicker on the screen\nYeah, this generational divide, the starkest truth I've ever seen.\n\n[Verse 3]\nWe connect through wires and clouds, but our hearts feel miles apart\nLost within the chattering crowds, where algorithms play their part\nTry to share a lived-in truth, from a past they can't comprehend\nJust a different kind of youth, comin' to a lonely end.\n\n[Bridge]\nI reach across, they swipe and scroll, a different pace, a different light\nPrayin' for a common soul, to bridge this endless day and night\nFor the wisdom of the turning years, and the promise in the youthful gleam\nBoth are needed, calm the fears, in this fractured, fading dream.\n\n[Chorus]\nDigital dust and analog bones, a chasm wide, a silent sound\nLost between the cellular tones, on unfamiliar, shifting ground\nMy words just echoes in the air, theirs a flicker on the screen\nYeah, this generational divide, the starkest truth I've ever seen.\n\n[Outro]\nStarkest truth I've ever seen... yeah...\nDigital dust... and analog bones.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Got my stories, etched in lines, on paperbacks and weathered hands",
+            "Walked through fields of analog time, understood the fertile lands",
+            "Now they speak in rapid clicks, in languages I barely know",
+            "Try to bridge the gaps and tricks, watchin' new currents fiercely flow."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Digital dust and analog bones, a chasm wide, a silent sound",
+            "Lost between the cellular tones, on unfamiliar, shifting ground",
+            "My words just echoes in the air, theirs a flicker on the screen",
+            "Yeah, this generational divide, the starkest truth I've ever seen."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Show 'em somethin' built to last, with patience, wisdom, hard-won skill",
+            "They look for apps that move too fast, can't stand the climb upon the hill",
+            "They want the quick, the immediate gain, no time for lessons etched so deep",
+            "And understanding turns to pain, while ancient truths they just won't keep."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Digital dust and analog bones, a chasm wide, a silent sound",
+            "Lost between the cellular tones, on unfamiliar, shifting ground",
+            "My words just echoes in the air, theirs a flicker on the screen",
+            "Yeah, this generational divide, the starkest truth I've ever seen."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "We connect through wires and clouds, but our hearts feel miles apart",
+            "Lost within the chattering crowds, where algorithms play their part",
+            "Try to share a lived-in truth, from a past they can't comprehend",
+            "Just a different kind of youth, comin' to a lonely end."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "I reach across, they swipe and scroll, a different pace, a different light",
+            "Prayin' for a common soul, to bridge this endless day and night",
+            "For the wisdom of the turning years, and the promise in the youthful gleam",
+            "Both are needed, calm the fears, in this fractured, fading dream."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Digital dust and analog bones, a chasm wide, a silent sound",
+            "Lost between the cellular tones, on unfamiliar, shifting ground",
+            "My words just echoes in the air, theirs a flicker on the screen",
+            "Yeah, this generational divide, the starkest truth I've ever seen."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Starkest truth I've ever seen... yeah...",
+            "Digital dust... and analog bones."
+          ]
+        }
+      ],
       "video_id": "FPVOzhvbRVk",
       "video_url": "https://www.youtube.com/watch?v=FPVOzhvbRVk",
       "image_landscape": "assets/art/Digital Dust & Analog Bones.jpg",
@@ -309,7 +453,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Male Despair & Invisible Loneliness",
       "core_pillar": "The Silent Struggle (Young Men)",
       "style": "A very slow, deeply melancholic Delta Blues track with a pervasive sense of isolation. Features a raw, mournful male baritone vocal, intimate and full of quiet desperation. Instrumentation is stark and resonant: a single, fingerpicked acoustic guitar playing sparse, heavy riffs, accompanied by a very deep, slow, walking bass line. Drums are minimal, perhaps just soft brushes or distant, echoing taps. Occasional, subtle, mournful harmonica phrases add to the desolate mood. Evokes profound anguish, alienation, and somber reflection.",
-      "lyrics": "(Verse 1) Phone glows bright, a hundred friends, but the room feels cold and bare Phone glows bright, a hundred friends, but the room feels cold and bare Another day, the silence extends, lost inside a digital snare Got a million voices in my head, but not one soul truly there. (Chorus) I'm the ghost in the room now, just a shadow on the wall Hear the laughter, see the crowds, but I never get the call Yeah, this young man's blues, ain't got nowhere left to go Just the quiet desperation, in a world that doesn't know. (Verse 2) They said \"be strong, don't ever cry,\" keep it bottled, deep inside They said \"be strong, don't ever cry,\" keep it bottled, deep inside So I built these walls up to the sky, nowhere for my pain to hide Now the market's got no place for me, just a broken, silent tide. (Chorus) I'm the ghost in the room now, just a shadow on the wall Hear the laughter, see the crowds, but I never get the call Yeah, this young man's blues, ain't got nowhere left to go Just the quiet desperation, in a world that doesn't know. (Verse 3) Got no answers, got no plan, just the hours driftin' slow Got no answers, got no plan, just the hours driftin' slow Aching heart inside this man, nowhere left for hope to grow Feels like life is passing by, in a lonely, silent show. (Bridge) Used to dream of open roads, of love and purpose, strong and true Now the weight of unseen loads, just pushes me down, feels brand new Wish I knew the words to speak, to break this invisible chain But the strength they taught me, makes me weak, through sunshine and the driving rain. (Chorus) I'm the ghost in the room now, just a shadow on the wall Hear the laughter, see the crowds, but I never get the call Yeah, this young man's blues, ain't got nowhere left to go Just the quiet desperation, in a world that doesn't know. (Outro) World that doesn't know... yeah... Ghost in the room... where the lonely echoes grow.",
+      "lyrics": "[Verse 1]\nPhone glows bright, a hundred friends, but the room feels cold and bare\nPhone glows bright, a hundred friends, but the room feels cold and bare\nAnother day, the silence extends, lost inside a digital snare\nGot a million voices in my head, but not one soul truly there.\n\n[Chorus]\nI'm the ghost in the room now, just a shadow on the wall\nHear the laughter, see the crowds, but I never get the call\nYeah, this young man's blues, ain't got nowhere left to go\nJust the quiet desperation, in a world that doesn't know.\n\n[Verse 2]\nThey said \"be strong, don't ever cry,\" keep it bottled, deep inside\nThey said \"be strong, don't ever cry,\" keep it bottled, deep inside\nSo I built these walls up to the sky, nowhere for my pain to hide\nNow the market's got no place for me, just a broken, silent tide.\n\n[Chorus]\nI'm the ghost in the room now, just a shadow on the wall\nHear the laughter, see the crowds, but I never get the call\nYeah, this young man's blues, ain't got nowhere left to go\nJust the quiet desperation, in a world that doesn't know.\n\n[Verse 3]\nGot no answers, got no plan, just the hours driftin' slow\nGot no answers, got no plan, just the hours driftin' slow\nAching heart inside this man, nowhere left for hope to grow\nFeels like life is passing by, in a lonely, silent show.\n\n[Bridge]\nUsed to dream of open roads, of love and purpose, strong and true\nNow the weight of unseen loads, just pushes me down, feels brand new\nWish I knew the words to speak, to break this invisible chain\nBut the strength they taught me, makes me weak, through sunshine and the driving rain.\n\n[Chorus]\nI'm the ghost in the room now, just a shadow on the wall\nHear the laughter, see the crowds, but I never get the call\nYeah, this young man's blues, ain't got nowhere left to go\nJust the quiet desperation, in a world that doesn't know.\n\n[Outro]\nWorld that doesn't know... yeah...\nGhost in the room... where the lonely echoes grow.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Phone glows bright, a hundred friends, but the room feels cold and bare",
+            "Phone glows bright, a hundred friends, but the room feels cold and bare",
+            "Another day, the silence extends, lost inside a digital snare",
+            "Got a million voices in my head, but not one soul truly there."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "I'm the ghost in the room now, just a shadow on the wall",
+            "Hear the laughter, see the crowds, but I never get the call",
+            "Yeah, this young man's blues, ain't got nowhere left to go",
+            "Just the quiet desperation, in a world that doesn't know."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "They said \"be strong, don't ever cry,\" keep it bottled, deep inside",
+            "They said \"be strong, don't ever cry,\" keep it bottled, deep inside",
+            "So I built these walls up to the sky, nowhere for my pain to hide",
+            "Now the market's got no place for me, just a broken, silent tide."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "I'm the ghost in the room now, just a shadow on the wall",
+            "Hear the laughter, see the crowds, but I never get the call",
+            "Yeah, this young man's blues, ain't got nowhere left to go",
+            "Just the quiet desperation, in a world that doesn't know."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Got no answers, got no plan, just the hours driftin' slow",
+            "Got no answers, got no plan, just the hours driftin' slow",
+            "Aching heart inside this man, nowhere left for hope to grow",
+            "Feels like life is passing by, in a lonely, silent show."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "Used to dream of open roads, of love and purpose, strong and true",
+            "Now the weight of unseen loads, just pushes me down, feels brand new",
+            "Wish I knew the words to speak, to break this invisible chain",
+            "But the strength they taught me, makes me weak, through sunshine and the driving rain."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "I'm the ghost in the room now, just a shadow on the wall",
+            "Hear the laughter, see the crowds, but I never get the call",
+            "Yeah, this young man's blues, ain't got nowhere left to go",
+            "Just the quiet desperation, in a world that doesn't know."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "World that doesn't know... yeah...",
+            "Ghost in the room... where the lonely echoes grow."
+          ]
+        }
+      ],
       "video_id": "Z7db8lqz9vQ",
       "video_url": "https://www.youtube.com/watch?v=Z7db8lqz9vQ",
       "image_landscape": "assets/art/Ghost in the Room (Young Man's Blues).jpg",
@@ -325,7 +541,88 @@ window.FRACTURE_DATA = {
       "narrative_theme": "The Geography of Inequality & Segregated Realities",
       "core_pillar": "Economic Stratification & ZIP Code Destiny",
       "style": "A driving, slightly melancholic Country Rock track with a prominent, almost insistent beat. Features an expressive male vocal conveying both observation and a sense of frustration over societal divisions. Instrumentation includes a steady, strummed acoustic guitar, a resonant bass line, and drums with a consistent, marching rhythm. Subtle contrasting elements like a distant, distorted electric guitar riff for 'urban' sections and clearer acoustic picking for 'rural' parts could emphasize the divide. The mood is reflective, highlighting divergence and the growing chasm between worlds.",
-      "lyrics": "(Verse 1) City lights blaze, neon bright, chasing shadows down the avenue City lights blaze, neon bright, chasing shadows down the avenue Country lanes, bathed in moonlight, an old oak stands beneath the dew Two worlds spinnin' on this land, don't know what they're gonna do. (Chorus) Yeah, the great divide road, stretches out for all to see Urban hum and rural code, can't find a common melody Whispers turn to angry shouts, 'neath the same wide, troubled sky Oh, the great divide road, watchin' common ground pass by. (Verse 2) They talk of progress, fast and loud, always lookin' for the next new thing They talk of progress, fast and loud, always lookin' for the next new thing Out here in the quiet crowd, hear the lonely church bells ring Different values, different fears, different songs our spirits sing. (Chorus) Yeah, the great divide road, stretches out for all to see Urban hum and rural code, can't find a common melody Whispers turn to angry shouts, 'neath the same wide, troubled sky Oh, the great divide road, watchin' common ground pass by. (Verse 3) One side's rich with golden towers, money stackin' to the sun One side's rich with golden towers, money stackin' to the sun Other side, the wilting flowers, battle barely ever won Seeds of anger, deeply sown, when the harvest is outrun. (Chorus) Yeah, the great divide road, stretches out for all to see Urban hum and rural code, can't find a common melody Whispers turn to angry shouts, 'neath the same wide, troubled sky Oh, the great divide road, watchin' common ground pass by. (Bridge) Used to be one nation's dream, from the mountains to the shining sea Now it's fractured, so it seems, two distinct realities Try to call across the fields, but the echoes just get lost Payin' a heavy, bitter price, for all this widening cost. (Chorus) Yeah, the great divide road, stretches out for all to see Urban hum and rural code, can't find a common melody Whispers turn to angry shouts, 'neath the same wide, troubled sky Oh, the great divide road, watchin' common ground pass by. (Outro) Common ground pass by... yeah... The great divide road... beneath this troubled sky.",
+      "lyrics": "[Verse 1]\nCity lights blaze, neon bright, chasing shadows down the avenue\nCity lights blaze, neon bright, chasing shadows down the avenue\nCountry lanes, bathed in moonlight, an old oak stands beneath the dew\nTwo worlds spinnin' on this land, don't know what they're gonna do.\n\n[Chorus]\nYeah, the great divide road, stretches out for all to see\nUrban hum and rural code, can't find a common melody\nWhispers turn to angry shouts, 'neath the same wide, troubled sky\nOh, the great divide road, watchin' common ground pass by.\n\n[Verse 2]\nThey talk of progress, fast and loud, always lookin' for the next new thing\nThey talk of progress, fast and loud, always lookin' for the next new thing\nOut here in the quiet crowd, hear the lonely church bells ring\nDifferent values, different fears, different songs our spirits sing.\n\n[Chorus]\nYeah, the great divide road, stretches out for all to see\nUrban hum and rural code, can't find a common melody\nWhispers turn to angry shouts, 'neath the same wide, troubled sky\nOh, the great divide road, watchin' common ground pass by.\n\n[Verse 3]\nOne side's rich with golden towers, money stackin' to the sun\nOne side's rich with golden towers, money stackin' to the sun\nOther side, the wilting flowers, battle barely ever won\nSeeds of anger, deeply sown, when the harvest is outrun.\n\n[Chorus]\nYeah, the great divide road, stretches out for all to see\nUrban hum and rural code, can't find a common melody\nWhispers turn to angry shouts, 'neath the same wide, troubled sky\nOh, the great divide road, watchin' common ground pass by.\n\n[Bridge]\nUsed to be one nation's dream, from the mountains to the shining sea\nNow it's fractured, so it seems, two distinct realities\nTry to call across the fields, but the echoes just get lost\nPayin' a heavy, bitter price, for all this widening cost.\n\n[Chorus]\nYeah, the great divide road, stretches out for all to see\nUrban hum and rural code, can't find a common melody\nWhispers turn to angry shouts, 'neath the same wide, troubled sky\nOh, the great divide road, watchin' common ground pass by.\n\n[Outro]\nCommon ground pass by... yeah...\nThe great divide road... beneath this troubled sky.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "City lights blaze, neon bright, chasing shadows down the avenue",
+            "City lights blaze, neon bright, chasing shadows down the avenue",
+            "Country lanes, bathed in moonlight, an old oak stands beneath the dew",
+            "Two worlds spinnin' on this land, don't know what they're gonna do."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Yeah, the great divide road, stretches out for all to see",
+            "Urban hum and rural code, can't find a common melody",
+            "Whispers turn to angry shouts, 'neath the same wide, troubled sky",
+            "Oh, the great divide road, watchin' common ground pass by."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "They talk of progress, fast and loud, always lookin' for the next new thing",
+            "They talk of progress, fast and loud, always lookin' for the next new thing",
+            "Out here in the quiet crowd, hear the lonely church bells ring",
+            "Different values, different fears, different songs our spirits sing."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Yeah, the great divide road, stretches out for all to see",
+            "Urban hum and rural code, can't find a common melody",
+            "Whispers turn to angry shouts, 'neath the same wide, troubled sky",
+            "Oh, the great divide road, watchin' common ground pass by."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "One side's rich with golden towers, money stackin' to the sun",
+            "One side's rich with golden towers, money stackin' to the sun",
+            "Other side, the wilting flowers, battle barely ever won",
+            "Seeds of anger, deeply sown, when the harvest is outrun."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Yeah, the great divide road, stretches out for all to see",
+            "Urban hum and rural code, can't find a common melody",
+            "Whispers turn to angry shouts, 'neath the same wide, troubled sky",
+            "Oh, the great divide road, watchin' common ground pass by."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "Used to be one nation's dream, from the mountains to the shining sea",
+            "Now it's fractured, so it seems, two distinct realities",
+            "Try to call across the fields, but the echoes just get lost",
+            "Payin' a heavy, bitter price, for all this widening cost."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Yeah, the great divide road, stretches out for all to see",
+            "Urban hum and rural code, can't find a common melody",
+            "Whispers turn to angry shouts, 'neath the same wide, troubled sky",
+            "Oh, the great divide road, watchin' common ground pass by."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Common ground pass by... yeah...",
+            "The great divide road... beneath this troubled sky."
+          ]
+        }
+      ],
       "video_id": "lcajFC97hFM",
       "video_url": "https://www.youtube.com/watch?v=lcajFC97hFM",
       "image_landscape": "assets/art/The Great Divide Road.jpg",
@@ -341,7 +638,88 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Algorithmic Sorting & The Echo Chamber",
       "core_pillar": "Affective Political Polarization",
       "style": "A moderately slow, introspective Country Blues track with a persistent, almost hypnotic rhythm, reflecting the cyclical nature of echo chambers. Features a robust male vocal, conveying a sense of weariness, frustration, and quiet desperation. Instrumentation includes a subtly repetitive acoustic guitar riff, a deep, resonant bass line, and drums with a steady, muffled beat, possibly with a slight delay effect. Sparse, high-pitched digital hums or almost subliminal, distorted synth pads could be woven in to represent the 'algorithms' and the isolating digital space. The mood is one of being trapped, alienated, and yearning for clarity amidst informational distortion.",
-      "lyrics": "(Verse 1) Scrollin' through my daily feed, hearin' only what I like Scrollin' through my daily feed, hearin' only what I like Every word confirms my need, on this digital, lonely pike Buildin' walls with every click, a prison where no truth can strike. (Chorus) Oh, these echo chamber walls, closin' in around my head Hear no wisdom, hear no calls, just the same old lies I've fed Whispers turn to angry shouts, nowhere left for reason's plea Yeah, these echo chamber walls, just reflectin' back at me. (Verse 2) Algorithms, cold and sly, spoon-feedin' what I'm told to think Algorithms, cold and sly, spoon-feedin' what I'm told to think Watch the common ground pass by, standin' on the very brink Truth gets warped and twisted 'round, pushed down to the digital sink. (Chorus) Oh, these echo chamber walls, closin' in around my head Hear no wisdom, hear no calls, just the same old lies I've fed Whispers turn to angry shouts, nowhere left for reason's plea Yeah, these echo chamber walls, just reflectin' back at me. (Verse 3) Used to talk across the fence, argue out a simple point Used to talk across the fence, argue out a simple point Now dissent just makes no sense, every single sacred joint Of common facts, it's torn apart, leaving spirits disappoint. (Chorus) Oh, these echo chamber walls, closin' in around my head Hear no wisdom, hear no calls, just the same old lies I've fed Whispers turn to angry shouts, nowhere left for reason's plea Yeah, these echo chamber walls, just reflectin' back at me. (Bridge) They want outrage, want the fire, want to see us split and rage Fuelin' hate, takin' us higher, turning every human page To a tribal, fearful cry, shut inside a digital cage Missin' out on what's real, watchin' reason slowly fade. (Chorus) Oh, these echo chamber walls, closin' in around my head Hear no wisdom, hear no calls, just the same old lies I've fed Whispers turn to angry shouts, nowhere left for reason's plea Yeah, these echo chamber walls, just reflectin' back at me. (Outro) Reflectin' back at me... yeah... Echo chamber walls... nowhere left to flee.",
+      "lyrics": "[Verse 1]\nScrollin' through my daily feed, hearin' only what I like\nScrollin' through my daily feed, hearin' only what I like\nEvery word confirms my need, on this digital, lonely pike\nBuildin' walls with every click, a prison where no truth can strike.\n\n[Chorus]\nOh, these echo chamber walls, closin' in around my head\nHear no wisdom, hear no calls, just the same old lies I've fed\nWhispers turn to angry shouts, nowhere left for reason's plea\nYeah, these echo chamber walls, just reflectin' back at me.\n\n[Verse 2]\nAlgorithms, cold and sly, spoon-feedin' what I'm told to think\nAlgorithms, cold and sly, spoon-feedin' what I'm told to think\nWatch the common ground pass by, standin' on the very brink\nTruth gets warped and twisted 'round, pushed down to the digital sink.\n\n[Chorus]\nOh, these echo chamber walls, closin' in around my head\nHear no wisdom, hear no calls, just the same old lies I've fed\nWhispers turn to angry shouts, nowhere left for reason's plea\nYeah, these echo chamber walls, just reflectin' back at me.\n\n[Verse 3]\nUsed to talk across the fence, argue out a simple point\nUsed to talk across the fence, argue out a simple point\nNow dissent just makes no sense, every single sacred joint\nOf common facts, it's torn apart, leaving spirits disappoint.\n\n[Chorus]\nOh, these echo chamber walls, closin' in around my head\nHear no wisdom, hear no calls, just the same old lies I've fed\nWhispers turn to angry shouts, nowhere left for reason's plea\nYeah, these echo chamber walls, just reflectin' back at me.\n\n[Bridge]\nThey want outrage, want the fire, want to see us split and rage\nFuelin' hate, takin' us higher, turning every human page\nTo a tribal, fearful cry, shut inside a digital cage\nMissin' out on what's real, watchin' reason slowly fade.\n\n[Chorus]\nOh, these echo chamber walls, closin' in around my head\nHear no wisdom, hear no calls, just the same old lies I've fed\nWhispers turn to angry shouts, nowhere left for reason's plea\nYeah, these echo chamber walls, just reflectin' back at me.\n\n[Outro]\nReflectin' back at me... yeah...\nEcho chamber walls... nowhere left to flee.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Scrollin' through my daily feed, hearin' only what I like",
+            "Scrollin' through my daily feed, hearin' only what I like",
+            "Every word confirms my need, on this digital, lonely pike",
+            "Buildin' walls with every click, a prison where no truth can strike."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, these echo chamber walls, closin' in around my head",
+            "Hear no wisdom, hear no calls, just the same old lies I've fed",
+            "Whispers turn to angry shouts, nowhere left for reason's plea",
+            "Yeah, these echo chamber walls, just reflectin' back at me."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Algorithms, cold and sly, spoon-feedin' what I'm told to think",
+            "Algorithms, cold and sly, spoon-feedin' what I'm told to think",
+            "Watch the common ground pass by, standin' on the very brink",
+            "Truth gets warped and twisted 'round, pushed down to the digital sink."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, these echo chamber walls, closin' in around my head",
+            "Hear no wisdom, hear no calls, just the same old lies I've fed",
+            "Whispers turn to angry shouts, nowhere left for reason's plea",
+            "Yeah, these echo chamber walls, just reflectin' back at me."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Used to talk across the fence, argue out a simple point",
+            "Used to talk across the fence, argue out a simple point",
+            "Now dissent just makes no sense, every single sacred joint",
+            "Of common facts, it's torn apart, leaving spirits disappoint."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, these echo chamber walls, closin' in around my head",
+            "Hear no wisdom, hear no calls, just the same old lies I've fed",
+            "Whispers turn to angry shouts, nowhere left for reason's plea",
+            "Yeah, these echo chamber walls, just reflectin' back at me."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "They want outrage, want the fire, want to see us split and rage",
+            "Fuelin' hate, takin' us higher, turning every human page",
+            "To a tribal, fearful cry, shut inside a digital cage",
+            "Missin' out on what's real, watchin' reason slowly fade."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, these echo chamber walls, closin' in around my head",
+            "Hear no wisdom, hear no calls, just the same old lies I've fed",
+            "Whispers turn to angry shouts, nowhere left for reason's plea",
+            "Yeah, these echo chamber walls, just reflectin' back at me."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Reflectin' back at me... yeah...",
+            "Echo chamber walls... nowhere left to flee."
+          ]
+        }
+      ],
       "video_id": "chCja87RBsk",
       "video_url": "https://www.youtube.com/watch?v=chCja87RBsk",
       "image_landscape": "assets/art/The Echo Chamber Walls.jpg",
@@ -357,7 +735,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Competing National Realities on Shared Soil",
       "core_pillar": "Political & Regional Schisms",
       "style": "A driving, gritty Country Blues track with a strong, almost confrontational rhythm. Features a raw, expressive male vocal that conveys frustration, lament, and stark observation. Instrumentation includes a prominent, slightly distorted acoustic guitar with a driving riff, a deep, insistent bass line, and punchy, deliberate drums. Haunting steel guitar swells or a subtly discordant electric guitar could emphasize the divide and tension between the 'two truths.' The mood is polarized, anguished, and tense, reflecting ideological warfare.",
-      "lyrics": "(Verse 1) Same old sun climbs in the sky, shines down on this weary ground Same old sun climbs in the sky, shines down on this weary ground But the light hits different in each eye, a truth that can't be truly found Got two flags waving in the breeze, with a bitter, hollow sound. (Chorus) Yeah, two flags, one land, but different truths Whispers turn to angry shouts, scorchin' innocence and youth Building walls with every word, can't recall the common aim Yeah, two flags, one land, playin' a dangerous, burning game. (Verse 2) Politicians stoke the flame, point a finger, sharp and cold Politicians stoke the flame, point a finger, sharp and cold Callin' neighbors by a hateful name, a story tragically untold Truth gets bent and twisted 'round, by the narratives they've sold. (Chorus) Yeah, two flags, one land, but different truths Whispers turn to angry shouts, scorchin' innocence and youth Building walls with every word, can't recall the common aim Yeah, two flags, one land, playin' a dangerous, burning game. (Verse 3) Hear the arguments, long and loud, on the screens and in the streets Hear the arguments, long and loud, on the screens and in the streets Each side trapped within their crowd, never tasting common sweets Just suspicion, fear, and doubt, where no honest kindness meets. (Bridge) Used to talk of common good, a shared future, strong and bright Now it's just misunderstood, lost in endless, partisan night The threads are fraying, one by one, a fabric stretched so very thin Wonder if the mending's done, or where the healing can begin. (Chorus) Yeah, two flags, one land, but different truths Whispers turn to angry shouts, scorchin' innocence and youth Building walls with every word, can't recall the common aim Yeah, two flags, one land, playin' a dangerous, burning game. (Outro) Dangerous, burning game... yeah... Two flags, one land... calling out my name.",
+      "lyrics": "[Verse 1]\nSame old sun climbs in the sky, shines down on this weary ground\nSame old sun climbs in the sky, shines down on this weary ground\nBut the light hits different in each eye, a truth that can't be truly found\nGot two flags waving in the breeze, with a bitter, hollow sound.\n\n[Chorus]\nYeah, two flags, one land, but different truths\nWhispers turn to angry shouts, scorchin' innocence and youth\nBuilding walls with every word, can't recall the common aim\nYeah, two flags, one land, playin' a dangerous, burning game.\n\n[Verse 2]\nPoliticians stoke the flame, point a finger, sharp and cold\nPoliticians stoke the flame, point a finger, sharp and cold\nCallin' neighbors by a hateful name, a story tragically untold\nTruth gets bent and twisted 'round, by the narratives they've sold.\n\n[Chorus]\nYeah, two flags, one land, but different truths\nWhispers turn to angry shouts, scorchin' innocence and youth\nBuilding walls with every word, can't recall the common aim\nYeah, two flags, one land, playin' a dangerous, burning game.\n\n[Verse 3]\nHear the arguments, long and loud, on the screens and in the streets\nHear the arguments, long and loud, on the screens and in the streets\nEach side trapped within their crowd, never tasting common sweets\nJust suspicion, fear, and doubt, where no honest kindness meets.\n\n[Bridge]\nUsed to talk of common good, a shared future, strong and bright\nNow it's just misunderstood, lost in endless, partisan night\nThe threads are fraying, one by one, a fabric stretched so very thin\nWonder if the mending's done, or where the healing can begin.\n\n[Chorus]\nYeah, two flags, one land, but different truths\nWhispers turn to angry shouts, scorchin' innocence and youth\nBuilding walls with every word, can't recall the common aim\nYeah, two flags, one land, playin' a dangerous, burning game.\n\n[Outro]\nDangerous, burning game... yeah...\nTwo flags, one land... calling out my name.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Same old sun climbs in the sky, shines down on this weary ground",
+            "Same old sun climbs in the sky, shines down on this weary ground",
+            "But the light hits different in each eye, a truth that can't be truly found",
+            "Got two flags waving in the breeze, with a bitter, hollow sound."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Yeah, two flags, one land, but different truths",
+            "Whispers turn to angry shouts, scorchin' innocence and youth",
+            "Building walls with every word, can't recall the common aim",
+            "Yeah, two flags, one land, playin' a dangerous, burning game."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Politicians stoke the flame, point a finger, sharp and cold",
+            "Politicians stoke the flame, point a finger, sharp and cold",
+            "Callin' neighbors by a hateful name, a story tragically untold",
+            "Truth gets bent and twisted 'round, by the narratives they've sold."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Yeah, two flags, one land, but different truths",
+            "Whispers turn to angry shouts, scorchin' innocence and youth",
+            "Building walls with every word, can't recall the common aim",
+            "Yeah, two flags, one land, playin' a dangerous, burning game."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Hear the arguments, long and loud, on the screens and in the streets",
+            "Hear the arguments, long and loud, on the screens and in the streets",
+            "Each side trapped within their crowd, never tasting common sweets",
+            "Just suspicion, fear, and doubt, where no honest kindness meets."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "Used to talk of common good, a shared future, strong and bright",
+            "Now it's just misunderstood, lost in endless, partisan night",
+            "The threads are fraying, one by one, a fabric stretched so very thin",
+            "Wonder if the mending's done, or where the healing can begin."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Yeah, two flags, one land, but different truths",
+            "Whispers turn to angry shouts, scorchin' innocence and youth",
+            "Building walls with every word, can't recall the common aim",
+            "Yeah, two flags, one land, playin' a dangerous, burning game."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Dangerous, burning game... yeah...",
+            "Two flags, one land... calling out my name."
+          ]
+        }
+      ],
       "video_id": "6YJMjtw46tg",
       "video_url": "https://www.youtube.com/watch?v=6YJMjtw46tg",
       "image_landscape": "assets/art/Two Flags, One Land (But Different Truths).jpg",
@@ -373,7 +823,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "The Widening Economic & Regional Gulf",
       "core_pillar": "The Urban vs. Rural Chasm",
       "style": "A slow, mournful Country Blues ballad with a heavy, deliberate pace. Features a deep, resonant male vocal, conveying a sense of weariness, injustice, and somber observation. Instrumentation includes a prominent, fingerpicked acoustic guitar with a melancholic, repeating motif, a deep, steady bass line, and sparse, understated drums. A subtle, high-pitched wail from a slide guitar or harmonica could emphasize the feeling of longing and despair. The mood is one of profound sadness and quiet resignation in the face of vast economic disparities",
-      "lyrics": "(Verse 1) Sun shines bright on towers tall, where the golden eagles fly Sun shines bright on towers tall, where the golden eagles fly Cast a shadow, dark and long, on the hungry passers by Got vast differences in pocket, stretchin' up to touch the sky. (Chorus) Oh, the widening creek, it runs so steady and so deep Wealth on one side, struggle on the other, secrets that the shadows keep Straining every social thread, till the fabric starts to fray Yeah, the widening creek, pushin' souls apart each day. (Verse 2) Unequal chances, laid so bare, from the moment that you breathe Unequal chances, laid so bare, from the moment that you breathe Healthcare, schooling, hard to share, just a thorny, tangled wreath Sowin' seeds of bitterness, underneath the weeping tree. (Chorus) Oh, the widening creek, it runs so steady and so deep Wealth on one side, struggle on the other, secrets that the shadows keep Straining every social thread, till the fabric starts to fray Yeah, the widening creek, pushin' souls apart each day. (Verse 3) See the riches, piled so high, see the poverty, plain to view See the riches, piled so high, see the poverty, plain to view Trust in systems, starts to die, for the many, not the few Dividing lines on every map, showin' lives that can't break through. (Bridge) Used to preach of common dreams, a land of plenty for us all Now it's splintered, so it seems, hear the distant, lonely call Of justice lost and hope delayed, in this economic, endless fight Leaving souls in separate worlds, beneath the same cold, judging light. (Chorus) Oh, the widening creek, it runs so steady and so deep Wealth on one side, struggle on the other, secrets that the shadows keep Straining every social thread, till the fabric starts to fray Yeah, the widening creek, pushin' souls apart each day. (Outro) Pushin' souls apart each day... yeah... The widening creek... where the lost currents play.",
+      "lyrics": "[Verse 1]\nSun shines bright on towers tall, where the golden eagles fly\nSun shines bright on towers tall, where the golden eagles fly\nCast a shadow, dark and long, on the hungry passers by\nGot vast differences in pocket, stretchin' up to touch the sky.\n\n[Chorus]\nOh, the widening creek, it runs so steady and so deep\nWealth on one side, struggle on the other, secrets that the shadows keep\nStraining every social thread, till the fabric starts to fray\nYeah, the widening creek, pushin' souls apart each day.\n\n[Verse 2]\nUnequal chances, laid so bare, from the moment that you breathe\nUnequal chances, laid so bare, from the moment that you breathe\nHealthcare, schooling, hard to share, just a thorny, tangled wreath\nSowin' seeds of bitterness, underneath the weeping tree.\n\n[Chorus]\nOh, the widening creek, it runs so steady and so deep\nWealth on one side, struggle on the other, secrets that the shadows keep\nStraining every social thread, till the fabric starts to fray\nYeah, the widening creek, pushin' souls apart each day.\n\n[Verse 3]\nSee the riches, piled so high, see the poverty, plain to view\nSee the riches, piled so high, see the poverty, plain to view\nTrust in systems, starts to die, for the many, not the few\nDividing lines on every map, showin' lives that can't break through.\n\n[Bridge]\nUsed to preach of common dreams, a land of plenty for us all\nNow it's splintered, so it seems, hear the distant, lonely call\nOf justice lost and hope delayed, in this economic, endless fight\nLeaving souls in separate worlds, beneath the same cold, judging light.\n\n[Chorus]\nOh, the widening creek, it runs so steady and so deep\nWealth on one side, struggle on the other, secrets that the shadows keep\nStraining every social thread, till the fabric starts to fray\nYeah, the widening creek, pushin' souls apart each day.\n\n[Outro]\nPushin' souls apart each day... yeah...\nThe widening creek... where the lost currents play.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Sun shines bright on towers tall, where the golden eagles fly",
+            "Sun shines bright on towers tall, where the golden eagles fly",
+            "Cast a shadow, dark and long, on the hungry passers by",
+            "Got vast differences in pocket, stretchin' up to touch the sky."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, the widening creek, it runs so steady and so deep",
+            "Wealth on one side, struggle on the other, secrets that the shadows keep",
+            "Straining every social thread, till the fabric starts to fray",
+            "Yeah, the widening creek, pushin' souls apart each day."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Unequal chances, laid so bare, from the moment that you breathe",
+            "Unequal chances, laid so bare, from the moment that you breathe",
+            "Healthcare, schooling, hard to share, just a thorny, tangled wreath",
+            "Sowin' seeds of bitterness, underneath the weeping tree."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, the widening creek, it runs so steady and so deep",
+            "Wealth on one side, struggle on the other, secrets that the shadows keep",
+            "Straining every social thread, till the fabric starts to fray",
+            "Yeah, the widening creek, pushin' souls apart each day."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "See the riches, piled so high, see the poverty, plain to view",
+            "See the riches, piled so high, see the poverty, plain to view",
+            "Trust in systems, starts to die, for the many, not the few",
+            "Dividing lines on every map, showin' lives that can't break through."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "Used to preach of common dreams, a land of plenty for us all",
+            "Now it's splintered, so it seems, hear the distant, lonely call",
+            "Of justice lost and hope delayed, in this economic, endless fight",
+            "Leaving souls in separate worlds, beneath the same cold, judging light."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, the widening creek, it runs so steady and so deep",
+            "Wealth on one side, struggle on the other, secrets that the shadows keep",
+            "Straining every social thread, till the fabric starts to fray",
+            "Yeah, the widening creek, pushin' souls apart each day."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Pushin' souls apart each day... yeah...",
+            "The widening creek... where the lost currents play."
+          ]
+        }
+      ],
       "video_id": "FE_pbRsRZb8",
       "video_url": "https://www.youtube.com/watch?v=FE_pbRsRZb8",
       "image_landscape": "assets/art/The Widening Creek.jpg",
@@ -389,7 +911,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Spiritual Exhaustion & Collapse of Meaning",
       "core_pillar": "Spiritual & Moral Drift",
       "style": "A very slow, profoundly melancholic Gospel Blues track with a deeply mournful and reflective pace. Features a raw, resonant male baritone vocal, conveying a sense of weariness, profound loss, and desperate searching. Instrumentation includes a sparse, fingerpicked acoustic guitar playing a haunting, arpeggiated motif, a very low, somber, walking bass line, and extremely minimal, echoing drums (like distant brushes or a single, soft kick). Subtle, sustained organ chords and a wailing, mournful steel guitar add to the spiritual desolation and yearning for meaning. The mood is one of spiritual chaos, searching, and existential angst, reaching for a lost horizon.",
-      "lyrics": "(Verse 1) Old church bells, used to ring, a comfort in the Sunday air Old church bells, used to ring, a comfort in the Sunday air Now their song, a fading thing, just echoes in the empty prayer Truth gets questioned, right and wrong, nowhere left to truly care. (Chorus) Got a lost horizon, where the spirit starts to fade Searchin' for a guiding star, in the chaos that we've made Moral compass spinnin' wild, no consensus, nowhere true Yeah, a lost horizon, where the old beliefs break through. (Verse 2) Used to be a sacred text, held the answers, plain and bold Used to be a sacred text, held the answers, plain and bold Now the history's dissected, tales too painful to be told Left a hollow in the heart, where new purpose can't take hold. (Chorus) Got a lost horizon, where the spirit starts to fade Searchin' for a guiding star, in the chaos that we've made Moral compass spinnin' wild, no consensus, nowhere true Yeah, a lost horizon, where the old beliefs break through. (Verse 3) Every screen, a different truth, every voice, a brand new way Every screen, a different truth, every voice, a brand new way Youthful minds, searching for proof, losing faith with each new day In a world without foundation, just a lonely game they play. (Bridge) The old ground's crumbling, dust and stone, where the solid certainties once stood Leaving every soul alone, misunderstanding all that's good This spiritual chaos, deep and wide, leaves the heart without a chart Searching for a place to hide, or a brand new, hopeful start. (Chorus) Got a lost horizon, where the spirit starts to fade Searchin' for a guiding star, in the chaos that we've made Moral compass spinnin' wild, no consensus, nowhere true Yeah, a lost horizon, where the old beliefs break through. (Outro) Old beliefs break through... yeah... Lost horizon... in the empty air.",
+      "lyrics": "[Verse 1]\nOld church bells, used to ring, a comfort in the\nSunday air Old church bells, used to ring, a comfort in the\nSunday air Now their song, a fading thing, just echoes in the empty prayer\nTruth gets questioned, right and wrong, nowhere left to truly care.\n\n[Chorus]\nGot a lost horizon, where the spirit starts to fade\nSearchin' for a guiding star, in the chaos that we've made\nMoral compass spinnin' wild, no consensus, nowhere true\nYeah, a lost horizon, where the old beliefs break through.\n\n[Verse 2]\nUsed to be a sacred text, held the answers, plain and bold\nUsed to be a sacred text, held the answers, plain and bold\nNow the history's dissected, tales too painful to be told\nLeft a hollow in the heart, where new purpose can't take hold.\n\n[Chorus]\nGot a lost horizon, where the spirit starts to fade\nSearchin' for a guiding star, in the chaos that we've made\nMoral compass spinnin' wild, no consensus, nowhere true\nYeah, a lost horizon, where the old beliefs break through.\n\n[Verse 3]\nEvery screen, a different truth, every voice, a brand new way\nEvery screen, a different truth, every voice, a brand new way\nYouthful minds, searching for proof, losing faith with each new day\nIn a world without foundation, just a lonely game they play.\n\n[Bridge]\nThe old ground's crumbling, dust and stone, where the solid certainties once stood\nLeaving every soul alone, misunderstanding all that's good\nThis spiritual chaos, deep and wide, leaves the heart without a chart\nSearching for a place to hide, or a brand new, hopeful start.\n\n[Chorus]\nGot a lost horizon, where the spirit starts to fade\nSearchin' for a guiding star, in the chaos that we've made\nMoral compass spinnin' wild, no consensus, nowhere true\nYeah, a lost horizon, where the old beliefs break through.\n\n[Outro]\nOld beliefs break through... yeah...\nLost horizon... in the empty air.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Old church bells, used to ring, a comfort in the",
+            "Sunday air Old church bells, used to ring, a comfort in the",
+            "Sunday air Now their song, a fading thing, just echoes in the empty prayer",
+            "Truth gets questioned, right and wrong, nowhere left to truly care."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Got a lost horizon, where the spirit starts to fade",
+            "Searchin' for a guiding star, in the chaos that we've made",
+            "Moral compass spinnin' wild, no consensus, nowhere true",
+            "Yeah, a lost horizon, where the old beliefs break through."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Used to be a sacred text, held the answers, plain and bold",
+            "Used to be a sacred text, held the answers, plain and bold",
+            "Now the history's dissected, tales too painful to be told",
+            "Left a hollow in the heart, where new purpose can't take hold."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Got a lost horizon, where the spirit starts to fade",
+            "Searchin' for a guiding star, in the chaos that we've made",
+            "Moral compass spinnin' wild, no consensus, nowhere true",
+            "Yeah, a lost horizon, where the old beliefs break through."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Every screen, a different truth, every voice, a brand new way",
+            "Every screen, a different truth, every voice, a brand new way",
+            "Youthful minds, searching for proof, losing faith with each new day",
+            "In a world without foundation, just a lonely game they play."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "The old ground's crumbling, dust and stone, where the solid certainties once stood",
+            "Leaving every soul alone, misunderstanding all that's good",
+            "This spiritual chaos, deep and wide, leaves the heart without a chart",
+            "Searching for a place to hide, or a brand new, hopeful start."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Got a lost horizon, where the spirit starts to fade",
+            "Searchin' for a guiding star, in the chaos that we've made",
+            "Moral compass spinnin' wild, no consensus, nowhere true",
+            "Yeah, a lost horizon, where the old beliefs break through."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Old beliefs break through... yeah...",
+            "Lost horizon... in the empty air."
+          ]
+        }
+      ],
       "video_id": "rV21QTd3o6I",
       "video_url": "https://www.youtube.com/watch?v=rV21QTd3o6I",
       "image_landscape": "assets/art/Lost Horizon (Where the Spirit Fades).jpg",
@@ -405,7 +999,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Breaking Estrangement Through Personal Outreach",
       "core_pillar": "Pathways to Reconnection",
       "style": "A slow, reflective Country Folk track with a delicate, flowing rhythm, emphasizing the fragility of connection. Features a soft, yearning male vocal, intimate and full of hopeful effort. Instrumentation includes prominent, warm, fingerpicked acoustic guitar with a gentle, searching melody. A soft, melodic bass line and very sparse, gentle drums (brushes, light taps). Ethereal, shimmering synth pads or subtle, distant processed guitar sounds evoke the 'wire' and the digital space, while maintaining a sense of quiet hope and perseverance.",
-      "lyrics": "(Verse 1) Digital screens, a distant glow, miles between us, stark and wide Digital screens, a distant glow, miles between us, stark and wide Information starts to flow, but something deeper seems to hide Try to catch a simple truth, on this lonely, shifting tide. (Chorus) Just whispers across the wire, a fragile connection, soft and low Tryin' to hear beyond the static, secrets that the old hearts know Reaching out across the chasm, where the understanding starts to grow Yeah, just whispers across the wire, plantin' seeds where cold winds blow. (Verse 2) Talk of futures, fast and bright, talk of progress, clean and new Talk of futures, fast and bright, talk of progress, clean and new Sometimes miss the human light, the simple lessons, strong and true The quiet hum of wisdom's call, passin' just beyond their view. (Chorus) Just whispers across the wire, a fragile connection, soft and low Tryin' to hear beyond the static, secrets that the old hearts know Reaching out across the chasm, where the understanding starts to grow Yeah, just whispers across the wire, plantin' seeds where cold winds blow. (Verse 3) The old ways fade, the new ones rise, a language lost along the way The old ways fade, the new ones rise, a language lost along the way But a common longing in our eyes, for connection at the close of day A simple plea for shared exchange, a prayer for truth in what we say. (Bridge) It ain't about the answers, quick and loud, or the battles that we fight It's about finding common ground, in the fading of the light A gentle hand across the screen, a patient voice, a knowing nod Hear the human story, unseen, a message from beyond the sod. (Chorus) Just whispers across the wire, a fragile connection, soft and low Tryin' to hear beyond the static, secrets that the old hearts know Reaching out across the chasm, where the understanding starts to grow Yeah, just whispers across the wire, plantin' seeds where cold winds blow. (Outro) Cold winds blow... yeah... Whispers across the wire... lettin' common feelings flow.",
+      "lyrics": "[Verse 1]\nDigital screens, a distant glow, miles between us, stark and wide\nDigital screens, a distant glow, miles between us, stark and wide\nInformation starts to flow, but something deeper seems to hide\nTry to catch a simple truth, on this lonely, shifting tide.\n\n[Chorus]\nJust whispers across the wire, a fragile connection, soft and low\nTryin' to hear beyond the static, secrets that the old hearts know\nReaching out across the chasm, where the understanding starts to grow\nYeah, just whispers across the wire, plantin' seeds where cold winds blow.\n\n[Verse 2]\nTalk of futures, fast and bright, talk of progress, clean and new\nTalk of futures, fast and bright, talk of progress, clean and new\nSometimes miss the human light, the simple lessons, strong and true\nThe quiet hum of wisdom's call, passin' just beyond their view.\n\n[Chorus]\nJust whispers across the wire, a fragile connection, soft and low\nTryin' to hear beyond the static, secrets that the old hearts know\nReaching out across the chasm, where the understanding starts to grow\nYeah, just whispers across the wire, plantin' seeds where cold winds blow.\n\n[Verse 3]\nThe old ways fade, the new ones rise, a language lost along the way\nThe old ways fade, the new ones rise, a language lost along the way\nBut a common longing in our eyes, for connection at the close of day\nA simple plea for shared exchange, a prayer for truth in what we say.\n\n[Bridge]\nIt ain't about the answers, quick and loud, or the battles that we fight\nIt's about finding common ground, in the fading of the light\nA gentle hand across the screen, a patient voice, a knowing nod\nHear the human story, unseen, a message from beyond the sod.\n\n[Chorus]\nJust whispers across the wire, a fragile connection, soft and low\nTryin' to hear beyond the static, secrets that the old hearts know\nReaching out across the chasm, where the understanding starts to grow\nYeah, just whispers across the wire, plantin' seeds where cold winds blow.\n\n[Outro]\nCold winds blow... yeah...\nWhispers across the wire... lettin' common feelings flow.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Digital screens, a distant glow, miles between us, stark and wide",
+            "Digital screens, a distant glow, miles between us, stark and wide",
+            "Information starts to flow, but something deeper seems to hide",
+            "Try to catch a simple truth, on this lonely, shifting tide."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Just whispers across the wire, a fragile connection, soft and low",
+            "Tryin' to hear beyond the static, secrets that the old hearts know",
+            "Reaching out across the chasm, where the understanding starts to grow",
+            "Yeah, just whispers across the wire, plantin' seeds where cold winds blow."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Talk of futures, fast and bright, talk of progress, clean and new",
+            "Talk of futures, fast and bright, talk of progress, clean and new",
+            "Sometimes miss the human light, the simple lessons, strong and true",
+            "The quiet hum of wisdom's call, passin' just beyond their view."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Just whispers across the wire, a fragile connection, soft and low",
+            "Tryin' to hear beyond the static, secrets that the old hearts know",
+            "Reaching out across the chasm, where the understanding starts to grow",
+            "Yeah, just whispers across the wire, plantin' seeds where cold winds blow."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "The old ways fade, the new ones rise, a language lost along the way",
+            "The old ways fade, the new ones rise, a language lost along the way",
+            "But a common longing in our eyes, for connection at the close of day",
+            "A simple plea for shared exchange, a prayer for truth in what we say."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "It ain't about the answers, quick and loud, or the battles that we fight",
+            "It's about finding common ground, in the fading of the light",
+            "A gentle hand across the screen, a patient voice, a knowing nod",
+            "Hear the human story, unseen, a message from beyond the sod."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Just whispers across the wire, a fragile connection, soft and low",
+            "Tryin' to hear beyond the static, secrets that the old hearts know",
+            "Reaching out across the chasm, where the understanding starts to grow",
+            "Yeah, just whispers across the wire, plantin' seeds where cold winds blow."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Cold winds blow... yeah...",
+            "Whispers across the wire... lettin' common feelings flow."
+          ]
+        }
+      ],
       "video_id": "nWZ9aajp_Lc",
       "video_url": "https://www.youtube.com/watch?v=nWZ9aajp_Lc",
       "image_landscape": "assets/art/Whispers Across the Wire.jpg",
@@ -421,7 +1087,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Radical Emotional Vulnerability & Healing",
       "core_pillar": "Emotional Healing & Vulnerability",
       "style": "A moderately slow, deeply empathetic Country Folk / Blues Ballad with an intimate, raw male vocal. The verses are hushed and vulnerable, swelling into a powerful, anthemic chorus. Instrumentation features warm, resonant acoustic guitar fingerpicking, a gentle but deliberate bass line, and drums that build from sparse taps to a more affirming, mid-tempo beat in the chorus. Subtle, sweeping strings or a weeping steel guitar add to the emotional depth and sense of breakthrough. The mood is one of courageous vulnerability, healing, and heartfelt connection.",
-      "lyrics": "(Verse 1) They told me \"Son, you gotta be tough,\" keep your feelings locked up tight They told me \"Son, you gotta be tough,\" keep your feelings locked up tight Swallowed down the bitter stuff, walked alone through darkest night Hid the doubts, hid the fears, hid the trembling, fading light. (Chorus) But I'm man enough to cry, let the lonely teardrops fall Break these walls, reach for the sky, answer vulnerability's call Yeah, the chains they bound around my soul, are breaking in the morning sun I'm man enough to cry, my healing has begun. (Verse 2) Saw my brothers, standin' strong, never showing any pain Saw my brothers, standin' strong, never showing any pain Thought that's where I belonged, shelter from the drivin' rain But it left me empty, hollow, searching for a bond in vain. (Chorus) But I'm man enough to cry, let the lonely teardrops fall Break these walls, reach for the sky, answer vulnerability's call Yeah, the chains they bound around my soul, are breaking in the morning sun I'm man enough to cry, my healing has begun. (Verse 3) Job got tough, dreams fell flat, nowhere to talk, nowhere to turn Job got tough, dreams fell flat, nowhere to talk, nowhere to turn Wore the mask, beneath my hat, lessons that my spirit burned But sharing sorrow, makes you strong, it's a truth I slowly learned. (Bridge) For every ghost in every room, longing for a human touch Breaking free from silent gloom, needing just a little much Of honesty, a whispered plea, to share the burden, light the way To find connection, wild and free, at the dawning of a brand new day. (Chorus) But I'm man enough to cry, let the lonely teardrops fall Break these walls, reach for the sky, answer vulnerability's call Yeah, the chains they bound around my soul, are breaking in the morning sun I'm man enough to cry, my healing has begun. (Outro) Healing has begun... yeah... Man enough to cry... beneath the morning sun.",
+      "lyrics": "[Verse 1]\nThey told me \"Son, you gotta be tough,\" keep your feelings locked up tight\nThey told me \"Son, you gotta be tough,\" keep your feelings locked up tight\nSwallowed down the bitter stuff, walked alone through darkest night\nHid the doubts, hid the fears, hid the trembling, fading light.\n\n[Chorus]\nBut I'm man enough to cry, let the lonely teardrops fall\nBreak these walls, reach for the sky, answer vulnerability's call\nYeah, the chains they bound around my soul, are breaking in the morning sun\nI'm man enough to cry, my healing has begun.\n\n[Verse 2]\nSaw my brothers, standin' strong, never showing any pain\nSaw my brothers, standin' strong, never showing any pain\nThought that's where I belonged, shelter from the drivin' rain\nBut it left me empty, hollow, searching for a bond in vain.\n\n[Chorus]\nBut I'm man enough to cry, let the lonely teardrops fall\nBreak these walls, reach for the sky, answer vulnerability's call\nYeah, the chains they bound around my soul, are breaking in the morning sun\nI'm man enough to cry, my healing has begun.\n\n[Verse 3]\nJob got tough, dreams fell flat, nowhere to talk, nowhere to turn\nJob got tough, dreams fell flat, nowhere to talk, nowhere to turn\nWore the mask, beneath my hat, lessons that my spirit burned\nBut sharing sorrow, makes you strong, it's a truth I slowly learned.\n\n[Bridge]\nFor every ghost in every room, longing for a human touch\nBreaking free from silent gloom, needing just a little much\nOf honesty, a whispered plea, to share the burden, light the way\nTo find connection, wild and free, at the dawning of a brand new day.\n\n[Chorus]\nBut I'm man enough to cry, let the lonely teardrops fall\nBreak these walls, reach for the sky, answer vulnerability's call\nYeah, the chains they bound around my soul, are breaking in the morning sun\nI'm man enough to cry, my healing has begun.\n\n[Outro]\nHealing has begun... yeah...\nMan enough to cry... beneath the morning sun.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "They told me \"Son, you gotta be tough,\" keep your feelings locked up tight",
+            "They told me \"Son, you gotta be tough,\" keep your feelings locked up tight",
+            "Swallowed down the bitter stuff, walked alone through darkest night",
+            "Hid the doubts, hid the fears, hid the trembling, fading light."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But I'm man enough to cry, let the lonely teardrops fall",
+            "Break these walls, reach for the sky, answer vulnerability's call",
+            "Yeah, the chains they bound around my soul, are breaking in the morning sun",
+            "I'm man enough to cry, my healing has begun."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Saw my brothers, standin' strong, never showing any pain",
+            "Saw my brothers, standin' strong, never showing any pain",
+            "Thought that's where I belonged, shelter from the drivin' rain",
+            "But it left me empty, hollow, searching for a bond in vain."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But I'm man enough to cry, let the lonely teardrops fall",
+            "Break these walls, reach for the sky, answer vulnerability's call",
+            "Yeah, the chains they bound around my soul, are breaking in the morning sun",
+            "I'm man enough to cry, my healing has begun."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Job got tough, dreams fell flat, nowhere to talk, nowhere to turn",
+            "Job got tough, dreams fell flat, nowhere to talk, nowhere to turn",
+            "Wore the mask, beneath my hat, lessons that my spirit burned",
+            "But sharing sorrow, makes you strong, it's a truth I slowly learned."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "For every ghost in every room, longing for a human touch",
+            "Breaking free from silent gloom, needing just a little much",
+            "Of honesty, a whispered plea, to share the burden, light the way",
+            "To find connection, wild and free, at the dawning of a brand new day."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But I'm man enough to cry, let the lonely teardrops fall",
+            "Break these walls, reach for the sky, answer vulnerability's call",
+            "Yeah, the chains they bound around my soul, are breaking in the morning sun",
+            "I'm man enough to cry, my healing has begun."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Healing has begun... yeah...",
+            "Man enough to cry... beneath the morning sun."
+          ]
+        }
+      ],
       "video_id": "df5V1KDfl10",
       "video_url": "https://www.youtube.com/watch?v=df5V1KDfl10",
       "image_landscape": "assets/art/Man Enough to Cry.jpg",
@@ -437,7 +1175,88 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Shared Soil & Superordinate Stewardship",
       "core_pillar": "Shared Stewardship & Common Ground",
       "style": "A moderately paced, hopeful Country Folk track with a strong, unifying rhythm that gently builds optimism. Features a warm, earnest male vocal, conveying a plea for connection and grounded wisdom. Instrumentation includes prominent, resonant acoustic guitar (mixing strumming and fingerpicking), a solid, driving bass line, and drums with a consistent, supportive beat. Subtle, swelling string pads or a gentle, uplifting harmonica/steel guitar could emphasize the hope and sense of coming together. The mood is empathetic, unifying, and resilient, looking towards shared commonality.",
-      "lyrics": "(Verse 1) Heard the arguments, long and loud, on the screens and in the street Heard the arguments, long and loud, on the screens and in the street Each side trapped within their separate crowd, can't find a common beat Politicians, sharp and cruel, makin' promises they just can't keep. (Chorus) But there's common ground beneath our feet, if we just look down and see Shared humanity, bitter, sweet, for you and I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide Yeah, there's common ground beneath our feet, where honest hearts can truly hide. (Verse 2) Rich and poor, urban, rural, split by dollars, split by miles Rich and poor, urban, rural, split by dollars, split by miles Lost the language of the soul, just a thousand lonely smiles Building walls with every word, trapped inside these narrow aisles. (Chorus) But there's common ground beneath our feet, if we just look down and see Shared humanity, bitter, sweet, for you and I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide Yeah, there's common ground beneath our feet, where honest hearts can truly hide. (Verse 3) Used to think our differences, made us strong, made us so unique Used to think our differences, made us strong, made us so unique Now those lines are sharp and cold, a lonely mountain, a shallow creek But the human heart still beats the same, when its fundamental needs you seek. (Chorus) But there's common ground beneath our feet, if we just look down and see Shared humanity, bitter, sweet, for you and I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide Yeah, there's common ground beneath our feet, where honest hearts can truly hide. (Bridge) No matter where your journey led, no matter what you claim to know Every tear that's ever shed, every dream we help to grow Every fear that keeps us bound, every hope that makes us try We share this turning, spinning ground, beneath the same vast, troubled sky. (Chorus) But there's common ground beneath our feet, if we just look down and see Shared humanity, bitter, sweet, for you and I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide Yeah, there's common ground beneath our feet, where honest hearts can truly hide. (Outro) Truly hide... yeah... Common ground... for you and me.",
+      "lyrics": "[Verse 1]\nHeard the arguments, long and loud, on the screens and in the street\nHeard the arguments, long and loud, on the screens and in the street\nEach side trapped within their separate crowd, can't find a common beat\nPoliticians, sharp and cruel, makin' promises they just can't keep.\n\n[Chorus]\nBut there's common ground beneath our feet, if we just look down and see\nShared humanity, bitter, sweet, for you and\nI, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide\nYeah, there's common ground beneath our feet, where honest hearts can truly hide.\n\n[Verse 2]\nRich and poor, urban, rural, split by dollars, split by miles\nRich and poor, urban, rural, split by dollars, split by miles\nLost the language of the soul, just a thousand lonely smiles\nBuilding walls with every word, trapped inside these narrow aisles.\n\n[Chorus]\nBut there's common ground beneath our feet, if we just look down and see\nShared humanity, bitter, sweet, for you and\nI, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide\nYeah, there's common ground beneath our feet, where honest hearts can truly hide.\n\n[Verse 3]\nUsed to think our differences, made us strong, made us so unique\nUsed to think our differences, made us strong, made us so unique\nNow those lines are sharp and cold, a lonely mountain, a shallow creek\nBut the human heart still beats the same, when its fundamental needs you seek.\n\n[Chorus]\nBut there's common ground beneath our feet, if we just look down and see\nShared humanity, bitter, sweet, for you and\nI, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide\nYeah, there's common ground beneath our feet, where honest hearts can truly hide.\n\n[Bridge]\nNo matter where your journey led, no matter what you claim to know\nEvery tear that's ever shed, every dream we help to grow\nEvery fear that keeps us bound, every hope that makes us try\nWe share this turning, spinning ground, beneath the same vast, troubled sky.\n\n[Chorus]\nBut there's common ground beneath our feet, if we just look down and see\nShared humanity, bitter, sweet, for you and\nI, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide\nYeah, there's common ground beneath our feet, where honest hearts can truly hide.\n\n[Outro]\nTruly hide... yeah...\nCommon ground... for you and me.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Heard the arguments, long and loud, on the screens and in the street",
+            "Heard the arguments, long and loud, on the screens and in the street",
+            "Each side trapped within their separate crowd, can't find a common beat",
+            "Politicians, sharp and cruel, makin' promises they just can't keep."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But there's common ground beneath our feet, if we just look down and see",
+            "Shared humanity, bitter, sweet, for you and",
+            "I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide",
+            "Yeah, there's common ground beneath our feet, where honest hearts can truly hide."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Rich and poor, urban, rural, split by dollars, split by miles",
+            "Rich and poor, urban, rural, split by dollars, split by miles",
+            "Lost the language of the soul, just a thousand lonely smiles",
+            "Building walls with every word, trapped inside these narrow aisles."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But there's common ground beneath our feet, if we just look down and see",
+            "Shared humanity, bitter, sweet, for you and",
+            "I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide",
+            "Yeah, there's common ground beneath our feet, where honest hearts can truly hide."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Used to think our differences, made us strong, made us so unique",
+            "Used to think our differences, made us strong, made us so unique",
+            "Now those lines are sharp and cold, a lonely mountain, a shallow creek",
+            "But the human heart still beats the same, when its fundamental needs you seek."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But there's common ground beneath our feet, if we just look down and see",
+            "Shared humanity, bitter, sweet, for you and",
+            "I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide",
+            "Yeah, there's common ground beneath our feet, where honest hearts can truly hide."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "No matter where your journey led, no matter what you claim to know",
+            "Every tear that's ever shed, every dream we help to grow",
+            "Every fear that keeps us bound, every hope that makes us try",
+            "We share this turning, spinning ground, beneath the same vast, troubled sky."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But there's common ground beneath our feet, if we just look down and see",
+            "Shared humanity, bitter, sweet, for you and",
+            "I, and all of we Beyond the labels, beyond the noise, beyond the anger, deep and wide",
+            "Yeah, there's common ground beneath our feet, where honest hearts can truly hide."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Truly hide... yeah...",
+            "Common ground... for you and me."
+          ]
+        }
+      ],
       "video_id": "cl2Dv_o8Ixc",
       "video_url": "https://www.youtube.com/watch?v=cl2Dv_o8Ixc",
       "image_landscape": "assets/art/Common Ground Beneath Our Feet.jpg",
@@ -453,7 +1272,88 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Crossing the Boundary to Deliberate in Good Faith",
       "core_pillar": "Deliberative Contact & Bridge-Building",
       "style": "A moderately paced, uplifting Country Blues / Americana Anthem with a driving, forward-moving rhythm. Features a strong, determined male vocal, conveying courage, empathy, and a clear call to action. Instrumentation includes prominent, warm acoustic guitar (mixing strong strumming with clear fingerpicking), a solid, melodic bass line, and drums with a consistent, affirming beat that builds in intensity. Uplifting, sweeping strings or a hopeful harmonica/steel guitar melody could be used to emphasize the theme of unity and active reconciliation. The mood is inspiring, determined, and ultimately hopeful.",
-      "lyrics": "(Verse 1) Heard the echoes in the canyon, saw the dust on empty ground Heard the echoes in the canyon, saw the dust on empty ground Felt the chasm, deep and wide, nowhere common could be found But a quiet voice inside me, said a different choice was bound. (Chorus) So I'm reaching across the river, though the current's strong and deep Got to cross this great divide, promises our hearts can keep Every step, a whispered prayer, for the common ground we need Yeah, reaching across the river, planting reconciliation's seed. (Verse 2) They built their walls with words and fear, with algorithms, cold and sly They built their walls with words and fear, with algorithms, cold and sly Made a world where hate was clear, beneath a fractured, troubled sky But a bridge of honest effort, can make the bitter feelings die. (Chorus) So I'm reaching across the river, though the current's strong and deep Got to cross this great divide, promises our hearts can keep Every step, a whispered prayer, for the common ground we need Yeah, reaching across the river, planting reconciliation's seed. (Verse 3) It takes a hand, a patient ear, to hear a different, human sound It takes a hand, a patient ear, to hear a different, human sound To wash away the bitter tear, on this shared and sacred ground Find the courage, face the fear, where unity can still be found. (Chorus) So I'm reaching across the river, though the current's strong and deep Got to cross this great divide, promises our hearts can keep Every step, a whispered prayer, for the common ground we need Yeah, reaching across the river, planting reconciliation's seed. (Bridge) No more turning from the pain, no more living in the past Got to build the bonds again, a future truly meant to last Every step, a leap of faith, a whispered hope, a guiding light Crossing chasms, breathing truth, moving through the darkest night. (Chorus) So I'm reaching across the river, though the current's strong and deep Got to cross this great divide, promises our hearts can keep Every step, a whispered prayer, for the common ground we need Yeah, reaching across the river, planting reconciliation's seed. (Outro) Reconciliation's seed... yeah... Reaching across the river... for humanity's true need.",
+      "lyrics": "[Verse 1]\nHeard the echoes in the canyon, saw the dust on empty ground\nHeard the echoes in the canyon, saw the dust on empty ground\nFelt the chasm, deep and wide, nowhere common could be found\nBut a quiet voice inside me, said a different choice was bound.\n\n[Chorus]\nSo I'm reaching across the river, though the current's strong and deep\nGot to cross this great divide, promises our hearts can keep\nEvery step, a whispered prayer, for the common ground we need\nYeah, reaching across the river, planting reconciliation's seed.\n\n[Verse 2]\nThey built their walls with words and fear, with algorithms, cold and sly\nThey built their walls with words and fear, with algorithms, cold and sly\nMade a world where hate was clear, beneath a fractured, troubled sky\nBut a bridge of honest effort, can make the bitter feelings die.\n\n[Chorus]\nSo I'm reaching across the river, though the current's strong and deep\nGot to cross this great divide, promises our hearts can keep\nEvery step, a whispered prayer, for the common ground we need\nYeah, reaching across the river, planting reconciliation's seed.\n\n[Verse 3]\nIt takes a hand, a patient ear, to hear a different, human sound\nIt takes a hand, a patient ear, to hear a different, human sound\nTo wash away the bitter tear, on this shared and sacred ground\nFind the courage, face the fear, where unity can still be found.\n\n[Chorus]\nSo I'm reaching across the river, though the current's strong and deep\nGot to cross this great divide, promises our hearts can keep\nEvery step, a whispered prayer, for the common ground we need\nYeah, reaching across the river, planting reconciliation's seed.\n\n[Bridge]\nNo more turning from the pain, no more living in the past\nGot to build the bonds again, a future truly meant to last\nEvery step, a leap of faith, a whispered hope, a guiding light\nCrossing chasms, breathing truth, moving through the darkest night.\n\n[Chorus]\nSo I'm reaching across the river, though the current's strong and deep\nGot to cross this great divide, promises our hearts can keep\nEvery step, a whispered prayer, for the common ground we need\nYeah, reaching across the river, planting reconciliation's seed.\n\n[Outro]\nReconciliation's seed... yeah...\nReaching across the river... for humanity's true need.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Heard the echoes in the canyon, saw the dust on empty ground",
+            "Heard the echoes in the canyon, saw the dust on empty ground",
+            "Felt the chasm, deep and wide, nowhere common could be found",
+            "But a quiet voice inside me, said a different choice was bound."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "So I'm reaching across the river, though the current's strong and deep",
+            "Got to cross this great divide, promises our hearts can keep",
+            "Every step, a whispered prayer, for the common ground we need",
+            "Yeah, reaching across the river, planting reconciliation's seed."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "They built their walls with words and fear, with algorithms, cold and sly",
+            "They built their walls with words and fear, with algorithms, cold and sly",
+            "Made a world where hate was clear, beneath a fractured, troubled sky",
+            "But a bridge of honest effort, can make the bitter feelings die."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "So I'm reaching across the river, though the current's strong and deep",
+            "Got to cross this great divide, promises our hearts can keep",
+            "Every step, a whispered prayer, for the common ground we need",
+            "Yeah, reaching across the river, planting reconciliation's seed."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "It takes a hand, a patient ear, to hear a different, human sound",
+            "It takes a hand, a patient ear, to hear a different, human sound",
+            "To wash away the bitter tear, on this shared and sacred ground",
+            "Find the courage, face the fear, where unity can still be found."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "So I'm reaching across the river, though the current's strong and deep",
+            "Got to cross this great divide, promises our hearts can keep",
+            "Every step, a whispered prayer, for the common ground we need",
+            "Yeah, reaching across the river, planting reconciliation's seed."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "No more turning from the pain, no more living in the past",
+            "Got to build the bonds again, a future truly meant to last",
+            "Every step, a leap of faith, a whispered hope, a guiding light",
+            "Crossing chasms, breathing truth, moving through the darkest night."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "So I'm reaching across the river, though the current's strong and deep",
+            "Got to cross this great divide, promises our hearts can keep",
+            "Every step, a whispered prayer, for the common ground we need",
+            "Yeah, reaching across the river, planting reconciliation's seed."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Reconciliation's seed... yeah...",
+            "Reaching across the river... for humanity's true need."
+          ]
+        }
+      ],
       "video_id": "6x8VgJNE1Bw",
       "video_url": "https://www.youtube.com/watch?v=6x8VgJNE1Bw",
       "image_landscape": "assets/art/Reaching Across the River.jpg",
@@ -469,7 +1369,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Intergenerational Stitching & Continuity",
       "core_pillar": "Intergenerational Unity",
       "style": "A moderately slow, hopeful Country Blues / Americana Ballad with a resilient, flowing rhythm that builds a sense of quiet strength. Features a warm, sincere male vocal, conveying profound reflection and the timelessness of human connection. Instrumentation includes prominent, rich acoustic guitar with a repeating, weaving fingerpicking pattern, a solid, melodic bass line, and drums that provide a gentle but consistent pulse, subtly building in intensity. Soaring, sustained string pads or a hopeful, sustained steel guitar melody emphasize the 'unbroken thread' and the enduring spirit of humanity. The mood is profound, unifying, and reflective of a persistent quest for meaning and connection.",
-      "lyrics": "(Verse 1) Old foundations, cracked and torn, where the certainties once stood Old foundations, cracked and torn, where the certainties once stood Moral compass, tossed and worn, misunderstood, and misbegotten good Seems like meaning's lost its way, like a ship upon the flood. (Chorus) But there's an unbroken thread, runnin' through the human soul A common hunger for the truth, makin' every spirit whole For community, for purpose, for a hand that you can hold Yeah, an unbroken thread, more precious than pure gold. (Verse 2) Hear the arguments, long and loud, on every screen and every line Hear the arguments, long and loud, on every screen and every line Lost within the chattering crowd, searching for a guiding sign Trying to make some sense of it, in this fractured, restless time. (Chorus) But there's an unbroken thread, runnin' through the human soul A common hunger for the truth, makin' every spirit whole For community, for purpose, for a hand that you can hold Yeah, an unbroken thread, more precious than pure gold. (Verse 3) Institutions shift and sway, old traditions start to bend Institutions shift and sway, old traditions start to bend But the human heart finds its own way, 'til the very bitter end Seeking solace, seeking light, a message nature helps to send. (Bridge) From the old man's wisdom, plain to see, to the young ones' hopeful gleam A shared desire for dignity, in this waking, vivid dream No algorithm, no cold greed, can sever what connects us all The persistent quest for what we need, answering humanity's deep call. (Chorus) But there's an unbroken thread, runnin' through the human soul A common hunger for the truth, makin' every spirit whole For community, for purpose, for a hand that you can hold Yeah, an unbroken thread, more precious than pure gold. (Outro) Precious than pure gold... yeah... The unbroken thread... beating in the common air.",
+      "lyrics": "[Verse 1]\nOld foundations, cracked and torn, where the certainties once stood\nOld foundations, cracked and torn, where the certainties once stood\nMoral compass, tossed and worn, misunderstood, and misbegotten good\nSeems like meaning's lost its way, like a ship upon the flood.\n\n[Chorus]\nBut there's an unbroken thread, runnin' through the human soul\nA common hunger for the truth, makin' every spirit whole\nFor community, for purpose, for a hand that you can hold\nYeah, an unbroken thread, more precious than pure gold.\n\n[Verse 2]\nHear the arguments, long and loud, on every screen and every line\nHear the arguments, long and loud, on every screen and every line\nLost within the chattering crowd, searching for a guiding sign\nTrying to make some sense of it, in this fractured, restless time.\n\n[Chorus]\nBut there's an unbroken thread, runnin' through the human soul\nA common hunger for the truth, makin' every spirit whole\nFor community, for purpose, for a hand that you can hold\nYeah, an unbroken thread, more precious than pure gold.\n\n[Verse 3]\nInstitutions shift and sway, old traditions start to bend\nInstitutions shift and sway, old traditions start to bend\nBut the human heart finds its own way, 'til the very bitter end\nSeeking solace, seeking light, a message nature helps to send.\n\n[Bridge]\nFrom the old man's wisdom, plain to see, to the young ones' hopeful gleam\nA shared desire for dignity, in this waking, vivid dream\nNo algorithm, no cold greed, can sever what connects us all\nThe persistent quest for what we need, answering humanity's deep call.\n\n[Chorus]\nBut there's an unbroken thread, runnin' through the human soul\nA common hunger for the truth, makin' every spirit whole\nFor community, for purpose, for a hand that you can hold\nYeah, an unbroken thread, more precious than pure gold.\n\n[Outro]\nPrecious than pure gold... yeah...\nThe unbroken thread... beating in the common air.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Old foundations, cracked and torn, where the certainties once stood",
+            "Old foundations, cracked and torn, where the certainties once stood",
+            "Moral compass, tossed and worn, misunderstood, and misbegotten good",
+            "Seems like meaning's lost its way, like a ship upon the flood."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But there's an unbroken thread, runnin' through the human soul",
+            "A common hunger for the truth, makin' every spirit whole",
+            "For community, for purpose, for a hand that you can hold",
+            "Yeah, an unbroken thread, more precious than pure gold."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Hear the arguments, long and loud, on every screen and every line",
+            "Hear the arguments, long and loud, on every screen and every line",
+            "Lost within the chattering crowd, searching for a guiding sign",
+            "Trying to make some sense of it, in this fractured, restless time."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But there's an unbroken thread, runnin' through the human soul",
+            "A common hunger for the truth, makin' every spirit whole",
+            "For community, for purpose, for a hand that you can hold",
+            "Yeah, an unbroken thread, more precious than pure gold."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Institutions shift and sway, old traditions start to bend",
+            "Institutions shift and sway, old traditions start to bend",
+            "But the human heart finds its own way, 'til the very bitter end",
+            "Seeking solace, seeking light, a message nature helps to send."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "From the old man's wisdom, plain to see, to the young ones' hopeful gleam",
+            "A shared desire for dignity, in this waking, vivid dream",
+            "No algorithm, no cold greed, can sever what connects us all",
+            "The persistent quest for what we need, answering humanity's deep call."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "But there's an unbroken thread, runnin' through the human soul",
+            "A common hunger for the truth, makin' every spirit whole",
+            "For community, for purpose, for a hand that you can hold",
+            "Yeah, an unbroken thread, more precious than pure gold."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Precious than pure gold... yeah...",
+            "The unbroken thread... beating in the common air."
+          ]
+        }
+      ],
       "video_id": "93e1SXpdasI",
       "video_url": "https://www.youtube.com/watch?v=93e1SXpdasI",
       "image_landscape": "assets/art/The Unbroken Thread.jpg",
@@ -485,7 +1457,79 @@ window.FRACTURE_DATA = {
       "narrative_theme": "Universal Human Dignity Under One Sky",
       "core_pillar": "Universal Reconciliation",
       "style": "An uplifting and deeply emotional Country Blues / Americana Anthem. Features a powerful, rich baritone male lead vocal with distinct opera-like qualities, soaring with profound hope and unity. The verses are carried by a strong, resonant acoustic guitar, a full, melodic bass line, and powerful, anthemic drums. Crucially, the Bridge section should be entirely a cappella, with no instruments, showcasing the solo baritone voice. The Chorus bursts forth, highlighted by a male quartet of rich, harmonizing backing vocals, adding immense depth and lift, reinforcing the unifying message. The overall mood is grand, inspiring, and emotionally resonant, building to a powerful, hopeful conclusion.",
-      "lyrics": "(Verse 1) Heard the echoes in the canyon, saw the dust on empty ground Heart the echoes in the canyon, saw the dust on empty ground Felt the chasm, deep and wide, where no common voice was found But a quiet hope awakened, by a hopeful, rising sound. (Chorus) Oh, one sky over us all, stretching boundless, blue and deep Every star a shining promise, every secret it can keep Beyond the labels, beyond the fear, a truth that makes our spirits rise Yeah, one sky over us all, reflected in our human eyes. (Verse 2) Saw the young ones, lost their way, saw the old ones pushed aside Saw the young ones, lost their way, saw the old ones pushed aside Watched the lines of hate grow stronger, with nowhere left for truth to hide But a gentle understanding, turned the turning of the tide. (Chorus) Oh, one sky over us all, stretching boundless, blue and deep Every star a shining promise, every secret it can keep Beyond the labels, beyond the fear, a truth that makes our spirits rise Yeah, one sky over us all, reflected in our human eyes. (Verse 3) Crossed the rivers, climbed the walls, shattered every bitter lie Crossed the rivers, climbed the walls, shattered every bitter lie Heard humanity's ancient calls, beneath the same vast, troubled sky No algorithm, no old creed, can make our common spirit die. (Bridge) From the old man in the corporate queue, to the young ones with nowhere to go From distant lands, a painful view, where bitter rivers still flow No algorithm, no cold greed, can take away the basic truth That every single heart can bleed, from cradle to our fading youth. (Chorus) Oh, one sky over us all, stretching boundless, blue and deep Every star a shining promise, every secret it can keep Beyond the labels, beyond the fear, a truth that makes our spirits rise Yeah, one sky over us all, reflected in our human eyes. (Outro) Shared and hopeful start... yeah... The human heartbeat... beating in every heart.",
+      "lyrics": "[Verse 1]\nHeard the echoes in the canyon, saw the dust on empty ground\nHeart the echoes in the canyon, saw the dust on empty ground\nFelt the chasm, deep and wide, where no common voice was found\nBut a quiet hope awakened, by a hopeful, rising sound.\n\n[Chorus]\nOh, one sky over us all, stretching boundless, blue and deep\nEvery star a shining promise, every secret it can keep\nBeyond the labels, beyond the fear, a truth that makes our spirits rise\nYeah, one sky over us all, reflected in our human eyes.\n\n[Verse 2]\nSaw the young ones, lost their way, saw the old ones pushed aside\nSaw the young ones, lost their way, saw the old ones pushed aside\nWatched the lines of hate grow stronger, with nowhere left for truth to hide\nBut a gentle understanding, turned the turning of the tide.\n\n[Chorus]\nOh, one sky over us all, stretching boundless, blue and deep\nEvery star a shining promise, every secret it can keep\nBeyond the labels, beyond the fear, a truth that makes our spirits rise\nYeah, one sky over us all, reflected in our human eyes.\n\n[Verse 3]\nCrossed the rivers, climbed the walls, shattered every bitter lie\nCrossed the rivers, climbed the walls, shattered every bitter lie\nHeard humanity's ancient calls, beneath the same vast, troubled sky\nNo algorithm, no old creed, can make our common spirit die.\n\n[Bridge]\nFrom the old man in the corporate queue, to the young ones with nowhere to go\nFrom distant lands, a painful view, where bitter rivers still flow\nNo algorithm, no cold greed, can take away the basic truth\nThat every single heart can bleed, from cradle to our fading youth.\n\n[Chorus]\nOh, one sky over us all, stretching boundless, blue and deep\nEvery star a shining promise, every secret it can keep\nBeyond the labels, beyond the fear, a truth that makes our spirits rise\nYeah, one sky over us all, reflected in our human eyes.\n\n[Outro]\nShared and hopeful start... yeah...\nThe human heartbeat... beating in every heart.",
+      "stanzas": [
+        {
+          "tag": "[Verse 1]",
+          "lines": [
+            "Heard the echoes in the canyon, saw the dust on empty ground",
+            "Heart the echoes in the canyon, saw the dust on empty ground",
+            "Felt the chasm, deep and wide, where no common voice was found",
+            "But a quiet hope awakened, by a hopeful, rising sound."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, one sky over us all, stretching boundless, blue and deep",
+            "Every star a shining promise, every secret it can keep",
+            "Beyond the labels, beyond the fear, a truth that makes our spirits rise",
+            "Yeah, one sky over us all, reflected in our human eyes."
+          ]
+        },
+        {
+          "tag": "[Verse 2]",
+          "lines": [
+            "Saw the young ones, lost their way, saw the old ones pushed aside",
+            "Saw the young ones, lost their way, saw the old ones pushed aside",
+            "Watched the lines of hate grow stronger, with nowhere left for truth to hide",
+            "But a gentle understanding, turned the turning of the tide."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, one sky over us all, stretching boundless, blue and deep",
+            "Every star a shining promise, every secret it can keep",
+            "Beyond the labels, beyond the fear, a truth that makes our spirits rise",
+            "Yeah, one sky over us all, reflected in our human eyes."
+          ]
+        },
+        {
+          "tag": "[Verse 3]",
+          "lines": [
+            "Crossed the rivers, climbed the walls, shattered every bitter lie",
+            "Crossed the rivers, climbed the walls, shattered every bitter lie",
+            "Heard humanity's ancient calls, beneath the same vast, troubled sky",
+            "No algorithm, no old creed, can make our common spirit die."
+          ]
+        },
+        {
+          "tag": "[Bridge]",
+          "lines": [
+            "From the old man in the corporate queue, to the young ones with nowhere to go",
+            "From distant lands, a painful view, where bitter rivers still flow",
+            "No algorithm, no cold greed, can take away the basic truth",
+            "That every single heart can bleed, from cradle to our fading youth."
+          ]
+        },
+        {
+          "tag": "[Chorus]",
+          "lines": [
+            "Oh, one sky over us all, stretching boundless, blue and deep",
+            "Every star a shining promise, every secret it can keep",
+            "Beyond the labels, beyond the fear, a truth that makes our spirits rise",
+            "Yeah, one sky over us all, reflected in our human eyes."
+          ]
+        },
+        {
+          "tag": "[Outro]",
+          "lines": [
+            "Shared and hopeful start... yeah...",
+            "The human heartbeat... beating in every heart."
+          ]
+        }
+      ],
       "video_id": "AvAjIrk7TbA",
       "video_url": "https://www.youtube.com/watch?v=AvAjIrk7TbA",
       "image_landscape": "assets/art/One Sky Over Us All.jpg",
