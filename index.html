@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Fracture | An Interactive Societal Concept & Lyrics Vault by The Shady River Bard</title>
+  <meta name="description" content="An interactive concept website and complete lyrics vault for 'The Fracture' by The Shady River Bard. An empirical audit of societal division and a blueprint for reconciliation.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            basalt: {
+              950: '#060709',
+              900: '#0a0b0e',
+              850: '#0f1115',
+              800: '#14171d',
+              750: '#1a1d24',
+              700: '#22262f',
+              600: '#2f3440',
+            },
+            fissure: {
+              300: '#fcd34d',
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+              700: '#b45309',
+              800: '#92400e',
+              900: '#78350f',
+            },
+            river: {
+              300: '#7dd3fc',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            }
+          },
+          fontFamily: {
+            display: ['Cinzel', 'Georgia', 'serif'],
+            body: ['Lora', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Cinzel (Display), Lora (Literary/Lyrics), Inter (UI), JetBrains Mono (Data) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    /* Geological cracked texture and fissure borders */
+    .fissure-border {
+      border-image: linear-gradient(to bottom, #d97706, rgba(217, 119, 6, 0.1), rgba(2, 132, 199, 0.4)) 1;
+    }
+    
+    .glow-amber {
+      box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.25);
+    }
+    
+    .glow-river {
+      box-shadow: 0 0 25px -5px rgba(2, 132, 199, 0.3);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0a0b0e;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #22262f;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #d97706;
+    }
+
+    /* Lyrics formatting */
+    .lyrics-container {
+      font-family: 'Lora', Georgia, serif;
+      white-space: pre-line;
+      line-height: 1.85;
+      letter-spacing: 0.015em;
+    }
+
+    .high-contrast {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+    }
+    .high-contrast .bg-basalt-900,
+    .high-contrast .bg-basalt-850,
+    .high-contrast .bg-basalt-800 {
+      background-color: #0a0a0a !important;
+      border-color: #ffffff !important;
+    }
+    .high-contrast text-stone-400,
+    .high-contrast text-stone-300 {
+      color: #ffffff !important;
+    }
+  </style>
+
+  <!-- External Data File -->
+  <script src="data/fracture-data.js"></script>
+</head>
+<body id="body-root" class="bg-basalt-950 text-stone-200 font-sans antialiased selection:bg-fissure-600 selection:text-white min-h-screen">
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-fissure-600 focus:text-white focus:rounded-md focus:shadow-xl focus:outline-none">
+    Skip to main content
+  </a>
+
+  <!-- Global Sticky Top Navigation -->
+  <header class="sticky top-0 z-40 bg-basalt-900/90 backdrop-blur-md border-b border-white/10 shadow-2xl transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      
+      <!-- Brand & Back Link -->
+      <div class="flex items-center gap-4">
+        <a href="https://tpatterson34.github.io/the-shady-river-bard/" class="group flex items-center gap-2 text-xs font-mono text-stone-400 hover:text-fissure-400 transition-colors py-1 px-2.5 rounded-lg bg-basalt-800/80 border border-white/5 hover:border-fissure-500/30" title="Return to The Shady River Bard Discography">
+          <i class="fa-solid fa-arrow-left text-[10px] group-hover:-translate-x-0.5 transition-transform"></i>
+          <span>Discography</span>
+        </a>
+        <div class="h-4 w-px bg-white/10 hidden sm:block"></div>
+        <a href="#hero" class="flex items-center gap-2.5 text-stone-100 hover:text-fissure-400 transition-colors">
+          <span class="font-display font-bold tracking-widest text-lg sm:text-xl text-stone-100 uppercase">The Fracture</span>
+          <span class="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-fissure-950 text-fissure-400 border border-fissure-800/40 hidden md:inline-block">Album 03</span>
+        </a>
+      </div>
+
+      <!-- Main Navigation Anchors -->
+      <nav aria-label="Main Navigation" class="hidden lg:flex items-center gap-6 text-xs font-medium text-stone-300">
+        <a href="#manifesto" class="hover:text-fissure-400 transition-colors">Manifesto</a>
+        <a href="#narrative-arc" class="hover:text-fissure-400 transition-colors">4-Act Arc</a>
+        <a href="#pillars" class="hover:text-fissure-400 transition-colors">7 Fault Lines</a>
+        <a href="#tracks-section" class="hover:text-fissure-400 transition-colors">Tracks & Lyrics</a>
+        <a href="#listen" class="hover:text-fissure-400 transition-colors">Listen</a>
+      </nav>
+
+      <!-- Accessibility & Actions Controls -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Font Scaler -->
+        <div class="flex items-center bg-basalt-800 border border-white/10 rounded-lg p-0.5 text-xs font-mono">
+          <button onclick="changeFontSize(-1)" aria-label="Decrease font size" class="px-2 py-1 hover:text-fissure-400 transition-colors focus:outline-none focus:ring-1 focus:ring-fissure-400 rounded">A-</button>
+          <span class="text-stone-500">|</span>
+          <button onclick="changeFontSize(1)" aria-label="Increase font size" class="px-2 py-1 hover:text-fissure-400 transition-colors focus:outline-none focus:ring-1 focus:ring-fissure-400 rounded">A+</button>
+        </div>
+
+        <!-- High Contrast Mode -->
+        <button id="contrast-toggle" onclick="toggleContrast()" aria-label="Toggle high contrast view" class="p-2 rounded-lg bg-basalt-800 border border-white/10 hover:border-fissure-500/40 text-stone-300 hover:text-fissure-400 transition-colors text-xs focus:outline-none focus:ring-1 focus:ring-fissure-400" title="Toggle High Contrast">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+
+        <!-- Quick Video Playlist Action Button -->
+        <a href="https://www.youtube.com/playlist?list=PLO_tWXIGUXcHGcrGGVmhxgbmjlO4Z7SU2" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center gap-2 py-1.5 px-3.5 rounded-lg bg-red-600 hover:bg-red-500 text-white text-xs font-medium transition-all shadow-md focus:outline-none focus:ring-2 focus:ring-white">
+          <i class="fa-brands fa-youtube text-sm"></i>
+          <span>Play Videos</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main id="main-content" class="relative">
+
+    <!-- HERO SECTION: The Chasm & Manifesto -->
+    <section id="hero" class="relative pt-12 pb-20 lg:pt-16 lg:pb-28 overflow-hidden border-b border-white/10">
+      
+      <!-- Ambient Background Radial Lighting -->
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-b from-fissure-950/40 via-river-950/20 to-transparent pointer-events-none blur-3xl"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          
+          <!-- Left: High-Res Album Cover & Player Badges -->
+          <div class="lg:col-span-5 flex flex-col items-center">
+            <div class="relative group w-full max-w-md rounded-2xl overflow-hidden shadow-2xl border-2 border-fissure-700/40 glow-amber transition-all duration-500">
+              <img src="assets/art/The Fracture Album Art.jpg" alt="The Fracture album artwork: A solitary figure standing at the precipice of a vast cracked-earth canyon divided by a flowing river" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-basalt-950/90 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+              
+              <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between pointer-events-none">
+                <span class="text-xs font-mono uppercase tracking-widest text-stone-300 font-semibold drop-shadow">14 Songs • 4 Acts</span>
+                <span class="text-xs font-mono px-2 py-0.5 rounded bg-basalt-900/90 text-fissure-400 border border-fissure-600/40">Official Release</span>
+              </div>
+            </div>
+
+            <!-- Streaming Hub Pills -->
+            <div class="w-full max-w-md mt-6 grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
+              <a href="https://www.youtube.com/playlist?list=PLO_tWXIGUXcHGcrGGVmhxgbmjlO4Z7SU2" target="_blank" rel="noopener noreferrer" class="py-2 px-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-medium flex items-center justify-center gap-1.5 shadow transition-all focus:outline-none focus:ring-1 focus:ring-white">
+                <i class="fa-brands fa-youtube"></i>
+                <span>Videos</span>
+              </a>
+              <a href="https://music.youtube.com/playlist?list=OLAK5uy_m0XNxuBlIZ5zv4Mrb1S3Nb_RzJ3QFBnpU" target="_blank" rel="noopener noreferrer" class="py-2 px-2.5 rounded-xl bg-red-700 hover:bg-red-600 text-white font-medium flex items-center justify-center gap-1.5 shadow transition-all focus:outline-none focus:ring-1 focus:ring-white">
+                <i class="fa-solid fa-play"></i>
+                <span>YT Music</span>
+              </a>
+              <a href="https://music.apple.com/us/album/the-fracture/1831416972" target="_blank" rel="noopener noreferrer" class="py-2 px-2.5 rounded-xl bg-pink-600 hover:bg-pink-500 text-white font-medium flex items-center justify-center gap-1.5 shadow transition-all focus:outline-none focus:ring-1 focus:ring-white">
+                <i class="fa-brands fa-apple"></i>
+                <span>Apple</span>
+              </a>
+              <a href="https://open.spotify.com/album/43YxX8r0k778XQ5h0M8F0H" target="_blank" rel="noopener noreferrer" class="py-2 px-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-600 text-white font-medium flex items-center justify-center gap-1.5 shadow transition-all focus:outline-none focus:ring-1 focus:ring-white">
+                <i class="fa-brands fa-spotify"></i>
+                <span>Spotify</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Manifesto & Thematic Thesis -->
+          <div class="lg:col-span-7 space-y-6">
+            <div class="space-y-2">
+              <div class="flex items-center gap-3">
+                <span class="h-px w-8 bg-fissure-500"></span>
+                <span class="text-xs font-mono uppercase tracking-widest text-fissure-400 font-semibold">Societal Analysis & Narrative Arc</span>
+              </div>
+              <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white drop-shadow-md">
+                THE FRACTURE
+              </h1>
+              <p class="font-mono text-sm text-stone-400">By <strong class="text-stone-200">The Shady River Bard</strong> • Acoustic & Electric Folk Rock</p>
+            </div>
+
+            <!-- Core Thesis Manifesto -->
+            <div id="manifesto" class="p-6 rounded-2xl bg-basalt-900/90 border border-fissure-700/30 shadow-xl space-y-4">
+              <h2 class="text-sm font-mono uppercase tracking-wider text-fissure-300 font-bold flex items-center gap-2">
+                <i class="fa-solid fa-scroll text-xs"></i>
+                <span>The Core Thesis</span>
+              </h2>
+              <p class="font-body text-base sm:text-lg leading-relaxed text-stone-300 italic">
+                &ldquo;We are living through a historic tearing of the American social fabric&mdash;not merely political, but generational, economic, geographical, and psychological. The Fracture is an intentional two-volume journey: an unflinching empirical diagnosis of our deepest fault lines (Tracks 1–8), followed by a compassionate, evidence-based roadmap toward vulnerability, community stewardship, and human reconnection (Tracks 9–14).&rdquo;
+              </p>
+              <p class="text-xs sm:text-sm text-stone-400 leading-relaxed">
+                Between the echo chamber and the corporate spreadsheet, between the young man stranded in an empty room and the hollowed-out rural hospital, the divide feels insurmountable. Yet the ground we stand upon is identical. The cure begins when we put down the megaphone, acknowledge our grief, and reach across the river.
+              </p>
+            </div>
+
+            <!-- Key Empirical Metrics Counter Bar -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+              <div class="p-3.5 rounded-xl bg-basalt-850/80 border border-white/5 text-center">
+                <span class="block text-2xl font-mono font-bold text-fissure-400">14</span>
+                <span class="text-[11px] font-mono uppercase text-stone-400 tracking-wider">Songs & Stories</span>
+              </div>
+              <div class="p-3.5 rounded-xl bg-basalt-850/80 border border-white/5 text-center">
+                <span class="block text-2xl font-mono font-bold text-river-400">4</span>
+                <span class="text-[11px] font-mono uppercase text-stone-400 tracking-wider">Narrative Acts</span>
+              </div>
+              <div class="p-3.5 rounded-xl bg-basalt-850/80 border border-white/5 text-center">
+                <span class="block text-2xl font-mono font-bold text-fissure-400">30 Yrs</span>
+                <span class="text-[11px] font-mono uppercase text-stone-400 tracking-wider">Max Lifespan Gap</span>
+              </div>
+              <div class="p-3.5 rounded-xl bg-basalt-850/80 border border-white/5 text-center">
+                <span class="block text-2xl font-mono font-bold text-emerald-400">67%</span>
+                <span class="text-[11px] font-mono uppercase text-stone-400 tracking-wider">Exhausted Majority</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: THE 4-ACT NARRATIVE JOURNEY STEPPER -->
+    <section id="narrative-arc" class="py-16 sm:py-20 bg-basalt-900/50 border-b border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-fissure-950 border border-fissure-800/40 text-fissure-400 text-xs font-mono uppercase tracking-widest">
+            <i class="fa-solid fa-route text-[11px]"></i>
+            <span>The Four Movements</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-wide">
+            The Narrative Roadmap
+          </h2>
+          <p class="text-sm sm:text-base text-stone-400 leading-relaxed">
+            The Fracture moves intentionally from diagnosing systemic alienation to celebrating human resilience. Click any act below to filter the tracklist and lyrics vault.
+          </p>
+        </div>
+
+        <!-- 4-Act Stepper Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+          
+          <!-- Act I -->
+          <button onclick="filterByAct(1)" id="act-btn-1" class="text-left p-5 rounded-2xl bg-basalt-850 border border-fissure-700/50 hover:border-fissure-400 transition-all group focus:outline-none focus:ring-2 focus:ring-fissure-400 shadow-lg">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-fissure-950 text-fissure-400 border border-fissure-800">Act I</span>
+              <span class="text-xs font-mono text-stone-400">Tracks 1–4</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-white group-hover:text-fissure-300 transition-colors mb-2">The Cracks Appear</h3>
+            <p class="text-xs text-stone-400 leading-relaxed mb-3">
+              The initial shock of acoustic isolation, economic obsolescence for young men, generational asset gaps, and segregated zip codes.
+            </p>
+            <div class="text-[11px] font-mono text-fissure-400/90 flex items-center gap-1.5">
+              <span>View Songs</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </div>
+          </button>
+
+          <!-- Act II -->
+          <button onclick="filterByAct(2)" id="act-btn-2" class="text-left p-5 rounded-2xl bg-basalt-850 border border-white/10 hover:border-fissure-400 transition-all group focus:outline-none focus:ring-2 focus:ring-fissure-400 shadow-lg">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-basalt-950 text-stone-300 border border-white/10">Act II</span>
+              <span class="text-xs font-mono text-stone-400">Tracks 5–8</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-white group-hover:text-fissure-300 transition-colors mb-2">Deepening the Divide</h3>
+            <p class="text-xs text-stone-400 leading-relaxed mb-3">
+              The algorithmic echo chamber, competing national realities on the same soil, rural hospital deserts, and the spiritual nadir.
+            </p>
+            <div class="text-[11px] font-mono text-stone-400 group-hover:text-fissure-400 flex items-center gap-1.5">
+              <span>View Songs</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </div>
+          </button>
+
+          <!-- Act III -->
+          <button onclick="filterByAct(3)" id="act-btn-3" class="text-left p-5 rounded-2xl bg-basalt-850 border border-white/10 hover:border-river-400 transition-all group focus:outline-none focus:ring-2 focus:ring-river-400 shadow-lg">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-river-950 text-river-400 border border-river-800">Act III</span>
+              <span class="text-xs font-mono text-stone-400">Tracks 9–11</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-white group-hover:text-river-300 transition-colors mb-2">Glimmers of Light</h3>
+            <p class="text-xs text-stone-400 leading-relaxed mb-3">
+              The turning point: whispering across the political wire, breaking masculine stoicism with honest tears, and rediscovering shared soil.
+            </p>
+            <div class="text-[11px] font-mono text-stone-400 group-hover:text-river-400 flex items-center gap-1.5">
+              <span>View Songs</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </div>
+          </button>
+
+          <!-- Act IV -->
+          <button onclick="filterByAct(4)" id="act-btn-4" class="text-left p-5 rounded-2xl bg-basalt-850 border border-white/10 hover:border-emerald-400 transition-all group focus:outline-none focus:ring-2 focus:ring-emerald-400 shadow-lg">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800">Act IV</span>
+              <span class="text-xs font-mono text-stone-400">Tracks 12–14</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-white group-hover:text-emerald-300 transition-colors mb-2">The Reconnection</h3>
+            <p class="text-xs text-stone-400 leading-relaxed mb-3">
+              Physical boundary crossing to deliberate in good faith, stitching intergenerational continuity, and the grand unifying hymn.
+            </p>
+            <div class="text-[11px] font-mono text-stone-400 group-hover:text-emerald-400 flex items-center gap-1.5">
+              <span>View Songs</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </div>
+          </button>
+
+        </div>
+
+        <!-- Filter Reset Bar -->
+        <div class="mt-6 flex items-center justify-center gap-3">
+          <span id="active-filter-indicator" class="text-xs font-mono text-stone-400">Showing: <strong class="text-fissure-400">Act I: The Cracks Appear</strong></span>
+          <button onclick="filterByAct(0)" class="text-xs font-mono text-stone-400 hover:text-white px-2.5 py-1 rounded bg-basalt-800 border border-white/10 hover:border-white/20 transition-colors">
+            Show All 14 Tracks
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: THE 7 SOCIETAL FAULT LINES (EMPIRICAL DEEP DIVES) -->
+    <section id="pillars" class="py-16 sm:py-24 border-b border-white/10 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-basalt-800 border border-white/10 text-stone-300 text-xs font-mono uppercase tracking-widest">
+            <i class="fa-solid fa-microscope text-[11px] text-fissure-400"></i>
+            <span>The Research Dossier</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-wide">
+            The Seven Fault Lines
+          </h2>
+          <p class="text-sm sm:text-base text-stone-400 leading-relaxed">
+            Every song on <em>The Fracture</em> is anchored in verifiable economic, psychological, and sociological realities. Explore the data, mechanisms, and metaphors behind the music.
+          </p>
+        </div>
+
+        <!-- Dynamic Pillars Grid populated via JavaScript -->
+        <div id="pillars-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Populated dynamically -->
+        </div>
+
+        <!-- Special Interactive Data Widget: 1970 vs. Today & Life Expectancy Gap -->
+        <div class="mt-12 p-6 sm:p-8 rounded-2xl bg-basalt-900 border border-white/10 shadow-2xl space-y-6">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-4">
+            <div>
+              <h3 class="font-display text-xl font-bold text-white flex items-center gap-2.5">
+                <i class="fa-solid fa-chart-line text-fissure-400"></i>
+                <span>Interactive Fracture Inspector: The Widening Gap</span>
+              </h3>
+              <p class="text-xs text-stone-400 mt-1">Comparing empirical metrics across the fault lines</p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="setInspectorMetric('wealth')" id="insp-btn-wealth" class="px-3 py-1.5 rounded-lg text-xs font-mono bg-fissure-600 text-white font-medium">Home & Wealth</button>
+              <button onclick="setInspectorMetric('health')" id="insp-btn-health" class="px-3 py-1.5 rounded-lg text-xs font-mono bg-basalt-800 text-stone-300 hover:text-white">Life Expectancy</button>
+              <button onclick="setInspectorMetric('social')" id="insp-btn-social" class="px-3 py-1.5 rounded-lg text-xs font-mono bg-basalt-800 text-stone-300 hover:text-white">Loneliness</button>
+            </div>
+          </div>
+
+          <div id="inspector-display" class="space-y-4">
+            <!-- Dynamic Inspector Content -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: TRACKLIST & COMPLETE LYRICS VAULT -->
+    <section id="tracks-section" class="py-16 sm:py-24 bg-basalt-900/40">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 border-b border-white/10 pb-8">
+          <div class="space-y-2">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-fissure-950 border border-fissure-800/40 text-fissure-400 text-xs font-mono uppercase tracking-widest">
+              <i class="fa-solid fa-compact-disc text-[11px]"></i>
+              <span>Complete Audio & Lyrics</span>
+            </div>
+            <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-wide">
+              The 14 Songs of The Fracture
+            </h2>
+            <p class="text-sm text-stone-400 max-w-2xl">
+              Each track features its official high-resolution artwork, detailed musical instrumentation analysis, direct YouTube playback links, and full formatted lyrics.
+            </p>
+          </div>
+
+          <!-- Quick Actions: Expand/Collapse All Lyrics -->
+          <div class="flex items-center gap-2">
+            <button onclick="toggleAllLyrics(true)" class="text-xs font-mono px-3 py-2 rounded-lg bg-basalt-800 hover:bg-basalt-750 text-stone-300 border border-white/10 transition-colors">
+              Expand All Lyrics
+            </button>
+            <button onclick="toggleAllLyrics(false)" class="text-xs font-mono px-3 py-2 rounded-lg bg-basalt-800 hover:bg-basalt-750 text-stone-300 border border-white/10 transition-colors">
+              Collapse All
+            </button>
+          </div>
+        </div>
+
+        <!-- Track Cards Container -->
+        <div id="tracks-container" class="space-y-8">
+          <!-- Populated dynamically via fracture-data.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: FULL STREAMING & DISTRIBUTOR HUB -->
+    <section id="listen" class="py-16 sm:py-20 border-t border-white/10 bg-basalt-950 text-center">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        
+        <div class="space-y-3">
+          <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-wide">
+            Stream "The Fracture"
+          </h2>
+          <p class="text-sm text-stone-400 max-w-xl mx-auto">
+            Experience the complete album across your preferred listening platform or watch all 14 official music videos sequentially on YouTube.
+          </p>
+        </div>
+
+        <!-- Primary Distributor Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 max-w-3xl mx-auto">
+          <a href="https://www.youtube.com/playlist?list=PLO_tWXIGUXcHGcrGGVmhxgbmjlO4Z7SU2" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl bg-basalt-900 border border-red-600/40 hover:border-red-500 hover:bg-red-950/20 text-white transition-all flex flex-col items-center justify-center gap-2 shadow group">
+            <i class="fa-brands fa-youtube text-2xl text-red-500 group-hover:scale-110 transition-transform"></i>
+            <span class="font-mono text-xs font-semibold">Video Playlist</span>
+            <span class="text-[10px] text-stone-400">14 Videos</span>
+          </a>
+
+          <a href="https://music.youtube.com/playlist?list=OLAK5uy_m0XNxuBlIZ5zv4Mrb1S3Nb_RzJ3QFBnpU" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl bg-basalt-900 border border-red-700/40 hover:border-red-600 hover:bg-red-950/20 text-white transition-all flex flex-col items-center justify-center gap-2 shadow group">
+            <i class="fa-solid fa-play text-2xl text-red-600 group-hover:scale-110 transition-transform"></i>
+            <span class="font-mono text-xs font-semibold">YouTube Music</span>
+            <span class="text-[10px] text-stone-400">Audio Album</span>
+          </a>
+
+          <a href="https://music.apple.com/us/album/the-fracture/1831416972" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl bg-basalt-900 border border-pink-600/40 hover:border-pink-500 hover:bg-pink-950/20 text-white transition-all flex flex-col items-center justify-center gap-2 shadow group">
+            <i class="fa-brands fa-apple text-2xl text-pink-500 group-hover:scale-110 transition-transform"></i>
+            <span class="font-mono text-xs font-semibold">Apple Music</span>
+            <span class="text-[10px] text-stone-400">Lossless Audio</span>
+          </a>
+
+          <a href="https://open.spotify.com/album/43YxX8r0k778XQ5h0M8F0H" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl bg-basalt-900 border border-emerald-600/40 hover:border-emerald-500 hover:bg-emerald-950/20 text-white transition-all flex flex-col items-center justify-center gap-2 shadow group">
+            <i class="fa-brands fa-spotify text-2xl text-emerald-500 group-hover:scale-110 transition-transform"></i>
+            <span class="font-mono text-xs font-semibold">Spotify</span>
+            <span class="text-[10px] text-stone-400">Full Album</span>
+          </a>
+
+          <a href="https://music.amazon.com/search/The+Shady+River+Bard+The+Fracture?filter=IsLibrary%7Cfalse&sc=none" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl bg-basalt-900 border border-sky-600/40 hover:border-sky-500 hover:bg-sky-950/20 text-white transition-all flex flex-col items-center justify-center gap-2 shadow group col-span-2 sm:col-span-1">
+            <i class="fa-brands fa-amazon text-2xl text-sky-400 group-hover:scale-110 transition-transform"></i>
+            <span class="font-mono text-xs font-semibold">Amazon Music</span>
+            <span class="text-[10px] text-stone-400">HD Streaming</span>
+          </a>
+        </div>
+
+        <div class="pt-6 border-t border-white/5">
+          <p class="text-xs text-stone-400">
+            Also distributed worldwide to TIDAL, Pandora, iHeartRadio, Deezer, and major digital streaming platforms.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="bg-basalt-900 border-t border-white/10 py-12 text-stone-400 text-xs font-mono">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+      
+      <div class="space-y-1 text-center sm:text-left">
+        <p class="text-stone-200 font-semibold font-display text-sm tracking-wider">THE SHADY RIVER BARD</p>
+        <p>Documenting the American fracture and the quiet work of mending.</p>
+        <p class="text-[11px] text-stone-500">&copy; 2025 The Shady River Bard. All music, lyrics, and conceptual materials reserved.</p>
+      </div>
+
+      <div class="flex items-center gap-6">
+        <a href="https://tpatterson34.github.io/the-shady-river-bard/" class="hover:text-fissure-400 transition-colors">Main Discography</a>
+        <a href="#hero" class="hover:text-fissure-400 transition-colors">Top &uarr;</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script>
+    // State management
+    let activeActFilter = 1; // Default to Act 1
+    let currentFontSizeOffset = 0;
+    let isHighContrast = false;
+
+    // Initialize application
+    document.addEventListener('DOMContentLoaded', () => {
+      if (!window.FRACTURE_DATA) {
+        console.error("FRACTURE_DATA failed to load!");
+        return;
+      }
+      renderPillars();
+      renderTracks();
+      setInspectorMetric('wealth');
+    });
+
+    // 1. Render the 7 Societal Pillars
+    function renderPillars() {
+      const container = document.getElementById('pillars-container');
+      if (!container || !window.FRACTURE_DATA) return;
+
+      container.innerHTML = window.FRACTURE_DATA.pillars.map((p, idx) => {
+        return `
+          <article class="p-6 rounded-2xl bg-basalt-850 border border-white/10 hover:border-fissure-500/40 transition-all duration-300 shadow-xl flex flex-col justify-between space-y-5 group">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-basalt-800 border border-white/10 flex items-center justify-center text-fissure-400 text-lg group-hover:scale-110 transition-transform">
+                  <i class="${p.icon}"></i>
+                </div>
+                <span class="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-basalt-900 text-stone-400 border border-white/5">
+                  Pillar 0${idx + 1}
+                </span>
+              </div>
+
+              <div>
+                <h3 class="font-display text-xl font-bold text-white group-hover:text-fissure-300 transition-colors">
+                  ${p.title}
+                </h3>
+                <p class="text-xs text-stone-400 mt-1 font-mono">${p.subtitle}</p>
+              </div>
+
+              <!-- Stat Badges -->
+              <div class="grid grid-cols-2 gap-2 pt-2 border-t border-white/5">
+                ${p.stats.slice(0, 2).map(s => `
+                  <div class="p-2.5 rounded-lg bg-basalt-900/80 border border-white/5">
+                    <span class="block text-sm font-mono font-bold text-fissure-400">${s.value}</span>
+                    <span class="text-[10px] text-stone-400 block leading-tight mt-0.5">${s.label}</span>
+                  </div>
+                `).join('')}
+              </div>
+
+              <!-- Mechanism & Metaphor -->
+              <div class="space-y-2.5 text-xs text-stone-300 leading-relaxed pt-2">
+                <p><strong class="text-stone-100 font-mono">Mechanism:</strong> ${p.mechanism}</p>
+                <div class="p-3 rounded-lg bg-basalt-900 border-l-2 border-fissure-500 text-stone-300 italic font-body text-xs">
+                  &ldquo;${p.metaphor}&rdquo;
+                </div>
+              </div>
+            </div>
+
+            <!-- Connected Songs Button Bar -->
+            <div class="pt-4 border-t border-white/5 flex items-center justify-between">
+              <span class="text-[10px] font-mono text-stone-500 uppercase">Connected Tracks:</span>
+              <div class="flex items-center gap-1.5">
+                ${p.connected_tracks.map(tNum => `
+                  <a href="#track-${tNum}" onclick="expandSingleTrack(${tNum})" class="text-[11px] font-mono px-2 py-0.5 rounded bg-fissure-950 text-fissure-400 border border-fissure-800/40 hover:bg-fissure-900 transition-colors">
+                    Track ${tNum}
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    // 2. Render Tracklist & Lyrics
+    function renderTracks() {
+      const container = document.getElementById('tracks-container');
+      if (!container || !window.FRACTURE_DATA) return;
+
+      const tracks = window.FRACTURE_DATA.tracks;
+      const filtered = activeActFilter === 0 
+        ? tracks 
+        : tracks.filter(t => t.act === activeActFilter);
+
+      container.innerHTML = filtered.map(t => {
+        return `
+          <article id="track-${t.number}" class="scroll-mt-24 p-6 sm:p-8 rounded-2xl bg-basalt-850 border border-white/10 hover:border-white/20 transition-all shadow-xl space-y-6">
+            
+            <!-- Header Row: Artwork + Info + Actions -->
+            <div class="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between border-b border-white/10 pb-6">
+              
+              <!-- Left: Artwork & Details -->
+              <div class="flex items-center gap-5">
+                <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden border border-white/10 flex-shrink-0 shadow-md">
+                  <img src="${t.image_square}" alt="${t.title} artwork" class="w-full h-full object-cover">
+                </div>
+                
+                <div class="space-y-1">
+                  <div class="flex items-center gap-2">
+                    <span class="font-mono text-xs text-fissure-400 font-bold px-2 py-0.5 rounded bg-fissure-950 border border-fissure-800/40">
+                      Track ${String(t.number).padStart(2, '0')}
+                    </span>
+                    <span class="text-xs font-mono text-stone-400">${t.act_title}</span>
+                  </div>
+                  <h3 class="font-display text-2xl sm:text-3xl font-bold text-white tracking-wide">
+                    ${t.title}
+                  </h3>
+                  <p class="text-xs text-stone-400 font-mono flex items-center gap-2">
+                    <span><i class="fa-solid fa-tag text-fissure-500 mr-1"></i>${t.core_pillar}</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right: Direct Listen Link + Lyrics Accordion Toggle -->
+              <div class="flex items-center gap-3 w-full md:w-auto justify-end">
+                <a href="${t.video_url}" target="_blank" rel="noopener noreferrer" class="py-2.5 px-4 rounded-xl bg-red-600 hover:bg-red-500 text-white font-medium text-xs transition-colors flex items-center gap-2 shadow focus:outline-none focus:ring-2 focus:ring-white" aria-label="Watch ${t.title} official video on YouTube">
+                  <i class="fa-brands fa-youtube text-sm"></i>
+                  <span>Watch Video ↗</span>
+                </a>
+                
+                <button onclick="toggleTrackLyrics(${t.number})" id="toggle-btn-${t.number}" class="py-2.5 px-4 rounded-xl bg-basalt-800 hover:bg-basalt-750 text-stone-200 border border-white/10 font-medium text-xs transition-colors flex items-center gap-2 focus:outline-none focus:ring-1 focus:ring-fissure-400">
+                  <span id="toggle-label-${t.number}">Show Lyrics</span>
+                  <i id="toggle-icon-${t.number}" class="fa-solid fa-chevron-down text-[10px] transition-transform"></i>
+                </button>
+              </div>
+
+            </div>
+
+            <!-- Style & Musical Direction Banner -->
+            <div class="p-4 rounded-xl bg-basalt-900 border border-white/5 space-y-1">
+              <span class="text-[10px] font-mono uppercase tracking-wider text-fissure-400 font-bold block">
+                <i class="fa-solid fa-guitar mr-1.5"></i>Musical Direction & Instrumentation
+              </span>
+              <p class="text-xs text-stone-300 font-mono leading-relaxed">
+                ${t.style}
+              </p>
+            </div>
+
+            <!-- Landscape Artwork Banner (Optional display on expand) -->
+            <div class="rounded-xl overflow-hidden border border-white/5 shadow-inner">
+              <img src="${t.image_landscape}" alt="${t.title} panoramic art" class="w-full h-48 sm:h-64 object-cover object-center opacity-90 hover:opacity-100 transition-opacity">
+            </div>
+
+            <!-- Expandable Lyrics Container -->
+            <div id="lyrics-drawer-${t.number}" class="hidden space-y-4 pt-4 border-t border-white/10">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-mono uppercase tracking-wider text-stone-400 font-semibold">Complete Official Lyrics</span>
+                <span class="text-[11px] font-mono text-stone-500">The Shady River Bard</span>
+              </div>
+              
+              <div class="p-6 rounded-xl bg-basalt-900/90 border border-white/5 lyrics-container text-stone-200 text-sm sm:text-base selection:bg-fissure-600">
+${t.lyrics}
+              </div>
+
+              <!-- Concept Notes & Video Description -->
+              ${t.youtube_description ? `
+                <div class="p-4 rounded-xl bg-basalt-900/50 border border-white/5 text-xs text-stone-400 space-y-1.5">
+                  <span class="font-mono text-[10px] uppercase tracking-wider text-stone-400 font-bold block">Narrative Context:</span>
+                  <p class="leading-relaxed">${t.youtube_description.replace(/\n/g, '<br>')}</p>
+                </div>
+              ` : ''}
+            </div>
+
+          </article>
+        `;
+      }).join('');
+    }
+
+    // Toggle individual lyrics
+    function toggleTrackLyrics(trackNum) {
+      const drawer = document.getElementById(`lyrics-drawer-${trackNum}`);
+      const label = document.getElementById(`toggle-label-${trackNum}`);
+      const icon = document.getElementById(`toggle-icon-${trackNum}`);
+      if (!drawer) return;
+
+      const isHidden = drawer.classList.contains('hidden');
+      if (isHidden) {
+        drawer.classList.remove('hidden');
+        label.innerText = 'Hide Lyrics';
+        icon.classList.add('rotate-180');
+      } else {
+        drawer.classList.add('hidden');
+        label.innerText = 'Show Lyrics';
+        icon.classList.remove('rotate-180');
+      }
+    }
+
+    function expandSingleTrack(trackNum) {
+      filterByAct(0);
+      setTimeout(() => {
+        const drawer = document.getElementById(`lyrics-drawer-${trackNum}`);
+        const label = document.getElementById(`toggle-label-${trackNum}`);
+        const icon = document.getElementById(`toggle-icon-${trackNum}`);
+        if (drawer && drawer.classList.contains('hidden')) {
+          drawer.classList.remove('hidden');
+          if (label) label.innerText = 'Hide Lyrics';
+          if (icon) icon.classList.add('rotate-180');
+        }
+      }, 100);
+    }
+
+    // Toggle all lyrics
+    function toggleAllLyrics(expand) {
+      if (!window.FRACTURE_DATA) return;
+      window.FRACTURE_DATA.tracks.forEach(t => {
+        const drawer = document.getElementById(`lyrics-drawer-${t.number}`);
+        const label = document.getElementById(`toggle-label-${t.number}`);
+        const icon = document.getElementById(`toggle-icon-${t.number}`);
+        if (drawer) {
+          if (expand) {
+            drawer.classList.remove('hidden');
+            if (label) label.innerText = 'Hide Lyrics';
+            if (icon) icon.classList.add('rotate-180');
+          } else {
+            drawer.classList.add('hidden');
+            if (label) label.innerText = 'Show Lyrics';
+            if (icon) icon.classList.remove('rotate-180');
+          }
+        }
+      });
+    }
+
+    // Filter tracks by Act
+    function filterByAct(actNum) {
+      activeActFilter = actNum;
+      
+      // Update buttons style
+      for (let i = 1; i <= 4; i++) {
+        const btn = document.getElementById(`act-btn-${i}`);
+        if (btn) {
+          if (i === actNum) {
+            btn.classList.remove('border-white/10');
+            btn.classList.add('border-fissure-400', 'bg-basalt-800');
+          } else {
+            btn.classList.remove('border-fissure-400', 'bg-basalt-800');
+            btn.classList.add('border-white/10');
+          }
+        }
+      }
+
+      // Update indicator
+      const ind = document.getElementById('active-filter-indicator');
+      const actTitles = {
+        0: 'All 14 Tracks',
+        1: 'Act I: The Cracks Appear (Tracks 1–4)',
+        2: 'Act II: Deepening the Divide (Tracks 5–8)',
+        3: 'Act III: Glimmers of Understanding (Tracks 9–11)',
+        4: 'Act IV: The Path to Reconnection (Tracks 12–14)'
+      };
+      if (ind) ind.innerHTML = `Showing: <strong class="text-fissure-400">${actTitles[actNum]}</strong>`;
+
+      renderTracks();
+    }
+
+    // Interactive Data Inspector Widget
+    function setInspectorMetric(metric) {
+      const display = document.getElementById('inspector-display');
+      const btnW = document.getElementById('insp-btn-wealth');
+      const btnH = document.getElementById('insp-btn-health');
+      const btnS = document.getElementById('insp-btn-social');
+      if (!display) return;
+
+      [btnW, btnH, btnS].forEach(b => {
+        if (b) {
+          b.className = 'px-3 py-1.5 rounded-lg text-xs font-mono bg-basalt-800 text-stone-300 hover:text-white';
+        }
+      });
+
+      if (metric === 'wealth') {
+        if (btnW) btnW.className = 'px-3 py-1.5 rounded-lg text-xs font-mono bg-fissure-600 text-white font-medium';
+        display.innerHTML = `
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-2">
+              <span class="text-xs font-mono text-fissure-400 uppercase tracking-wider block font-bold">Home Price to Income</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl font-mono font-bold text-white">2.7x &rarr; 5.8x</span>
+              </div>
+              <p class="text-xs text-stone-400">In 1970, median homes cost less than 3 years of income. Today, the national average exceeds 5.8x, soaring past 10x in major metros.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-2">
+              <span class="text-xs font-mono text-fissure-400 uppercase tracking-wider block font-bold">Wealth Share by Cohort</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl font-mono font-bold text-white">51.6% vs 11%</span>
+              </div>
+              <p class="text-xs text-stone-400">Boomers hold over half of all U.S. wealth (~$80T), while Millennials and Gen Z hold just 11% despite forming 48% of the workforce.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-2">
+              <span class="text-xs font-mono text-fissure-400 uppercase tracking-wider block font-bold">Homeownership at Age 30</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl font-mono font-bold text-white">48% &rarr; 33%</span>
+              </div>
+              <p class="text-xs text-stone-400">Nearly half of Boomers owned homes by age 30, compared to only one-third of Millennials at the same life milestone.</p>
+            </div>
+          </div>
+        `;
+      } else if (metric === 'health') {
+        if (btnH) btnH.className = 'px-3 py-1.5 rounded-lg text-xs font-mono bg-fissure-600 text-white font-medium';
+        display.innerHTML = `
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-3">
+              <span class="text-xs font-mono text-river-400 uppercase tracking-wider block font-bold">Chicago 9-Mile Lifespan Chasm</span>
+              <div class="space-y-2">
+                <div>
+                  <div class="flex justify-between text-xs font-mono text-stone-300 mb-1">
+                    <span>Streeterville (Downtown)</span>
+                    <strong class="text-emerald-400">90.1 Years</strong>
+                  </div>
+                  <div class="w-full bg-basalt-950 h-3 rounded-full overflow-hidden">
+                    <div class="bg-emerald-500 h-full rounded-full" style="width: 100%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs font-mono text-stone-300 mb-1">
+                    <span>Englewood (South Side)</span>
+                    <strong class="text-rose-400">60.0 Years</strong>
+                  </div>
+                  <div class="w-full bg-basalt-950 h-3 rounded-full overflow-hidden">
+                    <div class="bg-rose-500 h-full rounded-full" style="width: 66.6%"></div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-xs text-stone-400">A 30-year life expectancy differential across 9 miles&mdash;the widest urban longevity gap recorded in the United States.</p>
+            </div>
+            
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-2">
+              <span class="text-xs font-mono text-river-400 uppercase tracking-wider block font-bold">Rural Healthcare Collapse</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl font-mono font-bold text-white">195 Closures</span>
+              </div>
+              <p class="text-xs text-stone-400">195 rural hospitals have closed or converted since 2005. Over 700 additional rural hospitals (30% of America's total) face severe financial jeopardy.</p>
+            </div>
+          </div>
+        `;
+      } else if (metric === 'social') {
+        if (btnS) btnS.className = 'px-3 py-1.5 rounded-lg text-xs font-mono bg-fissure-600 text-white font-medium';
+        display.innerHTML = `
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-2">
+              <span class="text-xs font-mono text-rose-400 uppercase tracking-wider block font-bold">Men with Zero Close Friends</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl font-mono font-bold text-white">3% &rarr; 15%</span>
+              </div>
+              <p class="text-xs text-stone-400">A 500% increase since 1990 in American men reporting they have no close friendships, driving unprecedented isolation.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-2">
+              <span class="text-xs font-mono text-rose-400 uppercase tracking-wider block font-bold">Youth In-Person Time</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl font-mono font-bold text-white">-70%</span>
+              </div>
+              <p class="text-xs text-stone-400">Young Americans aged 15–24 experienced a 70% collapse in face-to-face time with friends between 2003 and 2020.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-basalt-850 border border-white/5 space-y-2">
+              <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider block font-bold">The Exhausted Majority</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl font-mono font-bold text-white">67%</span>
+              </div>
+              <p class="text-xs text-stone-400">Two-thirds of Americans reject partisan tribal warfare and yearn for pragmatic compromise and bridge-building.</p>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Font size adjustments
+    function changeFontSize(delta) {
+      currentFontSizeOffset = Math.max(-2, Math.min(4, currentFontSizeOffset + delta));
+      const root = document.getElementById('body-root');
+      if (currentFontSizeOffset === 0) {
+        root.style.fontSize = '';
+      } else {
+        root.style.fontSize = `${100 + (currentFontSizeOffset * 6)}%`;
+      }
+    }
+
+    // Toggle high contrast
+    function toggleContrast() {
+      isHighContrast = !isHighContrast;
+      const root = document.getElementById('body-root');
+      if (isHighContrast) {
+        root.classList.add('high-contrast');
+      } else {
+        root.classList.remove('high-contrast');
+      }
+    }
+  </script>
+</body>
+</html>
